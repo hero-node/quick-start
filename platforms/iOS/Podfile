@@ -1,0 +1,10 @@
+platform :ios, '7.0'
+source 'https://code.dianrong.com/scm/mf/mypods.git'
+source 'https://code.dianrong.com/scm/mf/mypods-debug.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'sample' do
+    pod 'hero-ios','1.1.47'
+
+end
+

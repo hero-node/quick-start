@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.megvii.livenesslib">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <activity
+        android:name="com.megvii.livenesslib.LivenessActivity"
+        android:screenOrientation="portrait" />
+
+</manifest>

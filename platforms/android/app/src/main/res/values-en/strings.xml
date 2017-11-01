@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    <string name="app_name">Liveness Demo</string>
+    <string name="meglive_title">Liveness Demo</string>
+    <string name="meglive_version">version：</string>
+    <string name="meglive_livenessBtn">Start</string>
+    <string name="meglive_auth_progress">Authorizing ...</string>
+    <string name="meglive_auth_again">Retry authorizing</string>
+    <string name="meglive_auth_failed">Authorize Failed! Please check your network connection.</string>
+    <string name="meglive_returnbtn">Home Page</string>
+    <string name="meglive_liveness_again">Restart Liveness</string>
+    <string name="action_settings">Settings</string>
+
+
+
+</resources>

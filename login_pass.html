@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/shareViews.js"></script>
+<script type="text/javascript" src="js/md5.js"></script>
+<script type="text/javascript" src="js/herohelper.js"></script>
+<script type="text/javascript" src="js/hero.js"></script>
+<script type="text/javascript">
+Hero.on = function(json){
+    if(Hero.ui2Data.phone && Hero.ui2Data.phone.length === 11 && Hero.ui2Data.password && Hero.ui2Data.password.length > 0){
+        Hero.datas({name:'loginBtn',enable:true})
+    }else{
+        Hero.datas({name:'loginBtn',enable:false})
+    }
+    if (json.click === 'login') {
+        if (!(/^1[34578]\d{9}$/.test(Hero.ui2Data.phone))) {
+            Hero.datas({name:'toast',text:'请输入合法手机号'})
+        }else{
+            Hero.command('dismiss');
+        }
+    };
+}
+Hero.ui = {
+    version:0,
+    backgroundColor:'ffffff',
+    tintColor:'ffffff',
+    nav:{
+        navigationBarHidden:true,
+        title:'密码登陆',
+        titleColor:'000000',
+        leftItems:[{image:'close',click:{command:'dismiss'}}]
+    },
+    views:[
+        closeBar,
+        {
+            class:'HeroPaperTextField',
+            type:'phone',
+            frame:{x:'0.1x',r:'0.1x',y:'124',h:'50'},
+            placeHolder:'手机号码',
+            name:'phone',
+            text:localStorage.phone,
+            textFieldDidEditing:{name:'phone'},
+        },
+        {
+            class:'HeroPaperTextField',
+            type:'password',
+            frame:{x:'0.1x',r:'0.1x',y:'184',h:'50'},
+            placeHolder:'密码',
+            name:'password',
+            textFieldDidEditing:{name:'password'},
+        },
+        {
+            class:'HeroButton',
+            frame:{x:'0.1x',w:'90',y:'244',h:'30'},
+            title:'使用快捷登录',
+            size:14,
+            titleColor:tintColorL,
+            click:{command:'load:'+path+'/login.html'}
+        },
+        {
+            jsClass:'bigButton1',
+            name:'loginBtn',
+            enable:false,
+            frame:{x:'0.1x',r:'0.1x',y:'314',h:'44'},
+            title:'登录',
+            click:{click:'login'}
+        },
+       {
+            class:'HeroLabel',
+            frame:{w:'1x',h:'30',b:'60'},
+            text:'注册成功即代表您同意《用户协议》',
+            alignment:'center',
+            size:12,
+            textColor:'aaaaaa',
+            attribute:{
+                'color(10,9)':'666666',
+            },
+        },
+        {
+            class:'HeroButton',
+            frame:{w:'1x',h:'30',b:'60'},
+            click:{command:'goto:'+path+'/102416245670.html'}
+        },
+        {
+            class:'HeroToast',
+            name:'toast',
+        },
+
+    ],
+}
+
+</script>
+</head>
+</html>

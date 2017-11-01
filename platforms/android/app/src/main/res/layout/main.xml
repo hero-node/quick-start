@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+  
+      <LinearLayout
+          android:id="@+id/layoutBar"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >  
+         <ImageView
+       			android:id= "@+id/barIV"
+         		android:background="@drawable/bar"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+
+              />
+          
+      </LinearLayout>
+         
+      <LinearLayout
+         	android:layout_width="fill_parent"
+         	android:layout_height="wrap_content"
+        	android:background="#a00000"
+        	android:orientation="horizontal" >
+          	 <ImageView
+       			android:id= "@+id/bankCardIV"
+       			android:background="@drawable/bankcard"
+       			android:layout_weight="2"
+       			android:onClick="onBankBtnPress"
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dp"
+
+              />
+        	 <ImageView
+       			android:id= "@+id/czkCardIV"
+       			android:onClick="onCZKBtnPress"
+       			android:background="@drawable/czkcard"
+       			android:layout_weight="1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dp"
+              />
+       </LinearLayout>
+       
+          <LinearLayout
+            android:layout_marginTop="0dp"
+         	android:layout_width="fill_parent"
+         	android:layout_height="wrap_content"
+        	android:background="#0a0000"
+        	android:orientation="horizontal" >       
+        	  
+             <ImageView
+       			android:id= "@+id/idCardIV"
+       			android:onClick="onIDBtnPress"
+       			android:background="@drawable/idcard"
+       			android:layout_weight="2"
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dp"
+              />
+        	 <ImageView
+       			android:id= "@+id/veCardIV"
+       			android:onClick="onVEBtnPress"
+       			android:background="@drawable/vecard"
+       			android:layout_weight="1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dp"
+              />
+          </LinearLayout>
+
+          <LinearLayout
+            android:layout_marginTop="0dp"
+         	android:layout_width="fill_parent"
+         	android:layout_height="wrap_content"
+        	android:background="#0a0000"
+        	android:orientation="horizontal" >       
+        	  
+             <ImageView
+       			android:id= "@+id/VINCardIV"
+       			android:background="@drawable/vincode"
+       			android:layout_weight="1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dp"
+              />
+        	 <ImageView
+       			android:id= "@+id/FaceCardIV"
+       			android:background="@drawable/face"
+       			android:layout_weight="1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dp"
+              />
+        	 <ImageView
+       			android:id= "@+id/QrIV"
+       			android:background="@drawable/qr"
+       			android:layout_weight="1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dp"
+        		android:onClick="onQRBtnPress"
+              />
+          </LinearLayout>
+          
+          <LinearLayout
+            android:layout_marginTop="0dp"
+         	android:layout_width="fill_parent"
+         	android:layout_height="wrap_content"
+        	android:background="#0a0000"
+        	android:orientation="horizontal" >       
+        	  
+             <ImageView
+       			android:id= "@+id/PhotoImportIV"
+       			android:background="@drawable/photo_import"
+       			android:onClick="onPhotoImportPress"
+       			android:layout_weight="2"
+        		android:layout_width="wrap_content"
+        		android:layout_height="fill_parent"
+              />
+        	 <ImageView
+       			android:id= "@+id/aboutIV"
+       			android:background="@drawable/about"
+       			android:layout_weight="1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="fill_parent"
+              />
+          </LinearLayout>
+          
+</LinearLayout>

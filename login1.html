@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/shareViews.js"></script>
+<script type="text/javascript" src="js/md5.js"></script>
+<script type="text/javascript" src="js/herohelper.js"></script>
+<script type="text/javascript" src="js/hero.js"></script>
+<script type="text/javascript">
+Hero.refresh = function(){
+    if (Hero.counting) {
+        if (Hero.count > 0) {
+            Hero.datas({name:'renew',title:(Hero.count--)+' 秒',enable:false});
+        }else{
+            Hero.datas({name:'renew',title:'重新获取',enable:true});
+            Hero.counting = false;
+        }
+    }
+    // setTimeout(function(){
+    //     Hero.refresh();
+    // },1000);
+}
+Hero.viewWillAppear = function(){
+    Hero.counting = true;
+    Hero.count = 60;
+    Hero.refresh();
+}
+Hero.viewWillDisappear = function(){
+    Hero.counting = false;
+}
+Hero.on = function(json){
+    if (json.name === 'code') {
+        if (json.value.length === 4) {
+            Hero.command('dismiss');
+        };
+    }
+    if (json.click === 'renew') {
+        Hero.counting = true;
+        Hero.count = 60;
+        Hero.refresh();
+    };
+    if (json.click === 'voice') {
+        Hero.command({show:{title:'电话拨号已发出，请注意接收语音验证码'}})
+    };
+}
+Hero.ui = {
+    version:0,
+    backgroundColor:'ffffff',
+    tintColor:'ffffff',
+    nav:{
+        navigationBarHidden:true,
+    },
+    views:[
+        closeBar,
+        {
+            class:'HeroLabel',
+            frame:{x:'32',w:'130',y:'104',h:'50'},
+            textColor:infoColor,
+            size:18,
+            text:'验证码已发送至'
+        },
+        {
+            class:'HeroLabel',
+            frame:{x:'170',r:'16',y:'104',h:'50'},
+            textColor:titleColor,
+            size:18,
+            text:localStorage.phoneTmp.substr(0,3)+' '+ localStorage.phoneTmp.substr(3,4)+' '+localStorage.phoneTmp.substr(7,4)
+        },
+        {
+            class:'HeroCodeView',
+            name:'code',
+            frame:{w:'240',h:'50'},
+            center:{x:'0.5x',y:'204'},
+            count:4,
+            textFieldDidEditing:{textfield:'change'}
+        },
+        {
+            class:'HeroButton',
+            name:'renew',
+            frame:{r:'0.1x',w:'90',y:'244',h:'30'},
+            title:'重新获取',
+            size:14,
+            backgroundDisabledColor:'ffffff',
+            titleColor:tintColorL,
+            click:{click:'renew'}
+        },
+        // {
+        //     class:'HeroButton',
+        //     frame:{x:'0.1x',w:'120',y:'180',h:'30'},
+        //     title:'获取语音验证码?',
+        //     size:14,
+        //     titleColor:infoColor,
+        //     click:{click:'voice'}
+        // },
+        {
+            class:'HeroToast',
+            name:'toast',
+        }
+
+    ],
+}
+
+</script>
+</head>
+</html>

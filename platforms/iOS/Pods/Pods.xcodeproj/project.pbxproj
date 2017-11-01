@@ -1,0 +1,1310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000EB8ED6CE0C80A548B62DD44D29FFE /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF03717347FB28B64966BF486D8FDFB /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		010678413755ADB79D8ED0249C7B3C68 /* HeroImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6090BE9BD620262643917FCD5528EB /* HeroImageView.m */; };
+		01707A6E8F1E8A492B027E5D782788AA /* HeroUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD14F8EE574F3EE2A9421E5E93CA95C9 /* HeroUploadCell.m */; };
+		054FE6FD444A2F8FB8511EB1A432A7BB /* HeroImagePickFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B132FE429D4D4F5303CCE4A43C320E /* HeroImagePickFlowLayout.m */; };
+		05E866566FE5DE719941392ED7013353 /* HeroDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1EAC64304D58A8A6B702384034C533 /* HeroDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		074FBDECC77DF7862FED87C23DD3E120 /* HeroPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C379E57306DCEED75B64DC1DC2372 /* HeroPickerView.m */; };
+		076093101ACFB19CDA4E8F2157789E3A /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = B191CAE528289C49B534A0B1F27260C9 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0873F98413B26F1B95EDA6919BB63531 /* HeroViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6DF3198037B7DA5FA6780B78C7FC6E /* HeroViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0874FCE0A0749C856DB8366929330962 /* HeroBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AE2C156001C46BB11B10651CF0DC61 /* HeroBrowserCell.m */; };
+		097C2179C78B742DA54CD1E582960E48 /* HeroActionSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = E92BE48DC0CC243A6960AE5B3CDC785E /* HeroActionSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ADB6EAD07826099D6CBF7C6EC9BBC3B /* HeroScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 093D38DAA22224A8CA28C79AC6CA4F50 /* HeroScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C214C32B11D4A0A33DF51E1CE2213F1 /* HeroBadgeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5909C1CB01730A1DC95C417B2D70D645 /* HeroBadgeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3498B3EA6392F154BA58F20B4D0A97 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B5160A13FFAED46465F6F346346425B4 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F0C1ED6FC8899305B4F70A7F22649E0 /* UIDevice+SystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB94D27B00C3C7CDB4407B663B3522D /* UIDevice+SystemVersion.m */; };
+		0F278358012862151760718CEB09311F /* HeroApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A8946FA10A640E5E3A13234A284067 /* HeroApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F320CCA0F67235B2894EE86E43D4D02 /* HeroCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8779193C228ED56CBABC3B170450FA /* HeroCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12DE0B23E07CA0ED13E407CA4CA39C96 /* UIView+Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E826B6050AB2667D78FCFF3C69D431D /* UIView+Paper.m */; };
+		1587CD902448E797ABD327AF727B0CB0 /* HeroImageUploadView.h in Headers */ = {isa = PBXBuildFile; fileRef = C248EFA6FAE72287A78EB582316B137A /* HeroImageUploadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16D1AB3E4D5A336B818BC2716FF8B350 /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED14F0ECD2A7056F5C626C74E44D40E /* HeroViewController.m */; };
+		17D32C71BF49D7A1438AF95BACD9D510 /* HeroImageUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA7A1AE2E5D6B84D5CFB87BE9E5C5A /* HeroImageUploadManager.m */; };
+		1BB35249F086E8C3E10DF208CCB9C797 /* UIView+Hero.h in Headers */ = {isa = PBXBuildFile; fileRef = 645A01F63F718A96EA5AC1820939830F /* UIView+Hero.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BECA1AF440AFAC2C2F6FACAF1EA705D /* HeroSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C696F8246F0A7AF435FF2C0CA8DBA2 /* HeroSwitch.m */; };
+		1CF905599DFBA8C15F81DDC3CEA0029A /* HeroContactView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2882072F2C2F797B815A8C32324F0781 /* HeroContactView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E8082E2824E52E1C52277C2C38A1AA8 /* NSURL+HeroUrlEqual.h in Headers */ = {isa = PBXBuildFile; fileRef = B51082154C70CCEE90DD69949E7F482A /* NSURL+HeroUrlEqual.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC6C712CC206179469115DA8E90CA37 /* HeroImagePickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FA04C203E98755D717717B6483780E /* HeroImagePickViewController.m */; };
+		20DB598F23DD94A12C7C76EAB087D101 /* HeroChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF42110EE83FC0CCC95666A2B83E80 /* HeroChatView.m */; };
+		22C40F10F19C23F901577C062AB125E7 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 96282D548AC65DAACAB6603E4C3BF12F /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2381FFE02EAFDA72889DA91A60EB79B0 /* HeroTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA534E0B50576C6D1BCA52DE858B870 /* HeroTapDetectingImageView.m */; };
+		241CAFC9A639CC02EC14418EE6DDE983 /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7917709A4C2A07298A7A155E73161F /* UIView+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244B324ABB363D244C7CF199BC68C37E /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 183FF227661E251AC008921E04D11F63 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CCBA8DC9C86200556D0C05C51D151B /* HeroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8AE47F3A3F4D95A38F54EDA724D63 /* HeroTextField.m */; };
+		27488041A30C2EDD045E872A216BACA2 /* HeroImageUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 19346B55947BD7673DBA081AF2B53F9A /* HeroImageUploader.m */; };
+		28143A56916A37C1D62413137C3EFF69 /* HeroSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1BEE9F36F639331F191C91D6FCED4A /* HeroSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B50C6D032F1BA605ED6485350CC042A /* NSDate+ToString.h in Headers */ = {isa = PBXBuildFile; fileRef = AFFC612EDA5E0DE55B979A9768463081 /* NSDate+ToString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C17AFAAD0D8D80076EEBC5153A80EA /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3F2938B19E176BFA8C504CC1D91715 /* MJRefreshAutoNormalFooter.m */; };
+		30F7BF79B67555927D247911097C78FF /* NSDate+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABFA1FD8AE872739CF73F7A0F4E3F /* NSDate+ToString.m */; };
+		3285CE0619FB116EBE7C927C8A043E2D /* NSData+HashMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB44F9E9F917FCA92F4B33598167C27 /* NSData+HashMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F9D947384240D4DA77742428508259 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = FB529BD251EE8A596A7235AAC423ABE8 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351FDC9F62D90E70D2FC04EAB7545BEE /* HeroCustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5A344CD35466D29BD9846E1A3E4A94 /* HeroCustomButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B5A99D1ACD68F4633AE157FE8405D2 /* HeroButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CAB2DD7397BE01FD09C26C5DA32229 /* HeroButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38156B4A021A4401A0C564A6193EBAF7 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFD49845225B308EA99AC5855B265A5 /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383FB373A7AB1924A7E499E868C0CCB7 /* UIView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1709E5789E36FD9D311BD7997E4C857C /* UIView+Screenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388CCA7DC33E9D4CCF73D7E3D952BDBA /* HeroUploadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B6A8E4273E5CAFAD1E93760C16156 /* HeroUploadItem.m */; };
+		3963BF58E0F0EB6A2E014B10685628F5 /* HeroChatMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B4A645BE08630D309D79F1B70A63C /* HeroChatMsgView.m */; };
+		39CDB1F8F397EA697921154C42CC6481 /* HeroApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CB742198C5B5A4FEF23A0C8AD12458CA /* HeroApp.m */; };
+		3DB41AF770D80D12A7F116CDD2C43B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3F4BA45B44FF52AEF2D91B827E15DBF1 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = B85F6B4D7176D120AE928EA1FE43FD98 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F4FF66983DE62B4549D4A99E718A3CA /* HeroLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6233463D05A14E25022503C81AD614 /* HeroLabel.m */; };
+		3F86F59D1E9CFED7A4D83B0977A05CAE /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B7FB2BE22F467CC8CC2675FA5BA015 /* UIView+Addition.m */; };
+		3FB03EFA1348AF72C6BC578489B440F3 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 95189F9AF3FEAF0711079BAC6F0A8F28 /* UIScrollView+MJExtension.m */; };
+		3FC9692410950528312DF838F9B9D799 /* HeroButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB187D352C67250B704A95E495545CE /* HeroButton.m */; };
+		41835545898DE3A5F3E2FF05EE8855DF /* HeroWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC94D45F53049A9543550C1BDBD8CF /* HeroWebView.m */; };
+		423E8A7145865E08AC3AE5F802FD53B0 /* HeroUploadFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B9ECEFA4471C38005E0AA42001EC3F /* HeroUploadFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441A9A2C14642A7B60D2D31CAA12CB83 /* NSData+HashMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C65A053D59E79DA62D4D6FFBDC28A /* NSData+HashMD5.m */; };
+		474BB71B0D45A6CBC4F50C0A9D4A36A7 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A042C5ACE9E144B48206478838677D3 /* UIView+MJExtension.m */; };
+		49CC71F83BC1ACA906E22A7D06698237 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC69F9A2FAD33F700DED1C5637C8DF25 /* DACircularProgressView.m */; };
+		4BD2AA59A2B45DFE879C3DBC2C57BBFB /* UIView+Paper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD95842049DBAFFAC52B1B144AC8710 /* UIView+Paper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB4F1FC9FAA702D782DCA7B335051B3 /* HeroToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10EE97373D308C943948A6C41DFA28 /* HeroToast.m */; };
+		513CE8E0B8E9AAEF20979EAFD836D3F1 /* HeroImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F143FD80EAE1D5E3FEC061FFE301FBE /* HeroImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E1D464651CF79371468BE32EEEF92F /* HeroPhotoBrowerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0664175362660CB67A47F00796D965 /* HeroPhotoBrowerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		593267E7F6F3825286D5EE8C286D1970 /* HeroCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A54AA74116CF439922A8D6BD014E32 /* HeroCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59AE0D96CFE3E0225F590C4C55569B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5B78445370034BFD558EF6FEFBC5A5FB /* HeroCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DEBA43FA7B51429FDC8DED1B960BF8 /* HeroCheckBox.m */; };
+		5E5613020440461E109ABCF396EFE4A8 /* hero.h in Headers */ = {isa = PBXBuildFile; fileRef = F48EF57C3175F96F7D1273333D2CCB93 /* hero.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2F0D64ACE7E1D6B0FB5C703830256A /* UINavigationController+webViewBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B15234EE71EC63A64E61F0BEE611DA /* UINavigationController+webViewBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60DFE4B36CE9EEB451000E62D5A55259 /* HeroScanBarCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A08B4CFDDBBCF0952A714C5125A2BE6 /* HeroScanBarCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615C94BFFE3F97AC7D625E6DAC3FF0EA /* HeroDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5797EF9226668477309C3FA94DF3B312 /* HeroDevice.m */; };
+		623248AE8CD31E49D95C9A83B62CDB1F /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 311EE4D12125626F2DF6E70E33C50B66 /* MJRefreshComponent.m */; };
+		62C826ACB2796560FFFAA06EEC97E9AE /* HeroBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1567BA4BDB620D8C0BFE86F9B65FFE /* HeroBadgeLabel.m */; };
+		632D9BEEC84FCF97678B371E6F744E91 /* UIView+Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCB9712C91015BBF0CB30FC9EDC576 /* UIView+Hero.m */; };
+		65B409ED73B8048B11A5D50CCD54C182 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D91CED20DE2A79ED3CE6619CB1ED6EC6 /* MJRefreshFooter.m */; };
+		6773E4B4D758C7A0220481A3C7EDA7A6 /* HeroSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D75CF3FA02D414A0FDD14AEB99D5B5 /* HeroSlider.m */; };
+		6899775D0490E23011975D0E96FECE94 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BF9BB77B8CED9321EEA84B81D86604 /* NSData+Base64.m */; };
+		695A77049E035898BFDEAB23000159A0 /* HeroPhotoBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CFBDB6B2A6155F9D73E3DB48C25BE4 /* HeroPhotoBrowerViewController.m */; };
+		69B0EBD3749BCDC42C9ACA6287E2DF6B /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A0746934E7F998245FC00E088CDF4C /* NSString+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD6BB14070273670651DDFF966B96C4 /* HeroLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7012E0B32F03E30BB321EA61B9C639 /* HeroLocationView.m */; };
+		6B422F5BC31709683A00A65C73D0912B /* UIAlertView+blockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26047CFCAD857962436E22A28FD8B155 /* UIAlertView+blockDelegate.m */; };
+		6B7B6963EDC1654C9BE528A0281E05C7 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA611F59B620C5F2D3599FBF87ED9C /* NSBundle+MJRefresh.m */; };
+		6B99A9A0B8E4FD43822AC766C0651A85 /* HeroTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92496A711AC6AA1429600DB34C59EB /* HeroTableView.m */; };
+		6C5FC8BCBDCAE5D7466FA97A6145F7BF /* HeroLockPatternView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4174F0F73DEC14A90AFC17AFA00AC433 /* HeroLockPatternView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2A7CFE632F716D6D4D1E03D1784C77 /* UIDevice+SystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 31270C8EAEF5262CADF3AFE946075499 /* UIDevice+SystemVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB3DFAF42908C41F8C3C27F88D76C21 /* HeroToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 351767CF8B7868D3AD9B9E249BAA9E14 /* HeroToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775E441B836A91A0AC12A927852AF608 /* HeroScanBarCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C06C65307E050EAA1BBA8B32FD9BF8 /* HeroScanBarCodeView.m */; };
+		77904A895D8FC37E7C838767020B7E38 /* HeroSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C25F6FCAE85A7BA57533373AB7909D /* HeroSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		782D15BB93ACA8232D7C6788CD8A54A9 /* HeroPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A92D996C591209071CC894104E1D547C /* HeroPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC83EA6F1DBA8773628597E325CD769 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB43F91C2E552162130E8662CC588D7 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3EE7D3DBFD54D79797EFD9EA1F7FEA /* UIAlertView+blockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE4B256FD742B3994B1B1DB4CBCFAC /* UIAlertView+blockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DDDDBB54BD57F031B521E5FDE995A3E /* HeroTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3978815F528FFC8278AAEEFD834322 /* HeroTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80571AB3A199C4DBEBD0A71CA9F57FDD /* HeroChatMsgView.h in Headers */ = {isa = PBXBuildFile; fileRef = 994A13430A4BBC4A19BEE0AE6925CFB7 /* HeroChatMsgView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C79D8A292360931799950303D71B62 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C18182F3113056809993153C19CB1823 /* MJRefreshBackStateFooter.m */; };
+		83ED807C7824AEA1C68597CBD504404A /* HeroWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4E2E8494897764523CDABD7F9161D1 /* HeroWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864BC08B8994C7DD9D641C1720D2B128 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F937A825311B207D4D5836A74558B0 /* MJRefreshBackGifFooter.m */; };
+		88F4E80D8A83E8E425F28CF0A02ADE73 /* HeroTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7608E3F41CC34317C8EB186387C371 /* HeroTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8943846CC6D78CF9C1762141E5B9FDD2 /* Pods-sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A5509F02625ED6C46759563E44CC9 /* Pods-sample-dummy.m */; };
+		89B489765BA5ABDE09471166EE44A110 /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2BCBCAFA12651A673B7FD71CA08DBF /* UIView+Genie.m */; };
+		8A5D81084B2059A8F7E0AAA54E680D5C /* UIColor+Reverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 458E878AB336DD97AC9A97529A831DC3 /* UIColor+Reverse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4456DF704B15A32DD521A61E4022B8 /* HeroImageUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBD52838B85FD2D9CC144947E522C8F /* HeroImageUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D66645D89F142477289AEC66A8AC452 /* HeroSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 590ECA1114C96C4EE3D83A62CCDEC5C9 /* HeroSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB4212221DEE5FE36812FEFF3A9F025 /* HeroImagePickFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 78468FB98C534E1B38EAC90F4E27FA21 /* HeroImagePickFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D87AFC4D33BA7BBDE1574545ED03BE /* HeroImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A404C47474C6DCEF6378CBB66BD78D19 /* HeroImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E2D2102B354F247A0E1C46302DDAD9 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D254AA70A4FEFF0BF48CD3EC1C0F559A /* MJRefreshStateHeader.m */; };
+		92B39336D13F0DECAB37F50853A4E90E /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6A499E2D4167EAB29A6C7510FBB50E /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94874E1B0849D3A9330BC53491D913B5 /* HeroBrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A204812C443A5828F0AEE7E2504014 /* HeroBrowserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C76AD61C4FCCF1B905084EF88D1F48 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 9699A5D942AC3DFF4AA449A05C38EAEC /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F7F9856EF10083E2B968A4D48B6169 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6824C577B6A897427C26A271F3C98F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97B5089703616E171CBA7E842536F2C2 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3A87925539EEAB97DD09DBCBF4C0DD /* MJRefreshHeader.m */; };
+		98C3549DA4577A74C71AE0333A0B12ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		99B6CF8B8353E5D329EAD8377350F9E2 /* HeroTouchID.h in Headers */ = {isa = PBXBuildFile; fileRef = A2806001791FCC2B34D113FDEB440C44 /* HeroTouchID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3E135382C51613D97416281C769182 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F554E0DAAB782C74033A2B048EC27FC5 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCD4796561ECBF89D3D90CA4DBAAEDA /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A503C9EA762FB7A6697101E9D5C2D5 /* MJRefreshBackNormalFooter.m */; };
+		A04271E4CD14DDC8AEBC6B8DE48CB0A6 /* HeroTakePicCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E80F1274D9F21AA36A480ECB8DF6C /* HeroTakePicCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2113D03F15C81C407D76D7AD699720E /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EA1EA2BC9F15BA90CA0D707196D752 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A23BEF4FF53F192170B10D6B0747E18C /* HeroLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A963BA3FE2B96DAFACA80289C15559 /* HeroLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2DAE4E77ED10309D1BCC9C2BD5F0921 /* HeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 351C31ABE6095F5FBC3DBF10D5E89A62 /* HeroTableViewCell.m */; };
+		A5E71F7DDD660232F473DF57EAA21E27 /* HeroAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C41B658277A109FB49203D62F06DD /* HeroAddCell.m */; };
+		A95550633CDC6C20023D10915DD26D1C /* HeroUploadCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B552A17FE51C2CC877ABAE1C18FF6DC /* HeroUploadCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9732940D85D596C419D3DBD05696FA5 /* HeroSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C3EF4BF442DCED37A57AA1D2AB555B /* HeroSegmentControl.m */; };
+		A9A72A3508EA484A9986E2082A38CB15 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C95D134CB5FA81D6CE20108B5B917B /* MJRefresh-dummy.m */; };
+		AA8E5B09D0D698691D71F80DF4A48D75 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B88595C208150E2D16DBADD22B074C1B /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA28D2485DA8A4AD910A320B824BF4D /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63780FF5ADF489C00B43BD12902AA3E7 /* MJRefreshAutoStateFooter.m */; };
+		AC76F42EC99AEDE2F4825C093D98700E /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A3487222BFA435701CA251FF09F24E13 /* MJRefreshConst.m */; };
+		AC84E0F48F0E0959F524E66E70771A85 /* HeroChatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 258912C09E5F63CB0CB9EC2956C0487C /* HeroChatView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACDD07CB6F4821FB3AFFD4725BE96FCF /* HeroLockPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = C676F3BC606D145281A845CC707D7BFE /* HeroLockPatternView.m */; };
+		AE6F9E3CD473D435F0D38A261E6D9A7A /* HeroActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C9E96862B9801442FD5B70B0728A6 /* HeroActionSheetView.m */; };
+		AF6484F0A328761CD3A7E5EE8612BC01 /* UIImage+alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 377E77B62F293066484851E9A5894D86 /* UIImage+alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0C48480CB574582883CAA49B661355B /* HeroImageUploadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF5DDC59C6910C6001C77E0D5B55F6E /* HeroImageUploadView.m */; };
+		B0F7A70DBBBFC4E1DE2AC6C2F4AD66E8 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B0A69A79E2B98C0332461F44168A47 /* UIView+Screenshot.m */; };
+		B12D0D4B46C34A2F564676B99B6076D3 /* HeroUploadItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EA13486A809A5AA79D8BD9D3B7E400 /* HeroUploadItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15339322E8571E9614D61B3AD5E1822 /* UIView+Genie.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B162491C849B120086D5E600681C1D5 /* UIView+Genie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B193A0DADF33B879166C34F37C63B576 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C18FE3D1C6F82D4B6B564DF15114E6 /* MJRefreshAutoGifFooter.m */; };
+		B3FE827718A4BAD1D2825319CEB1093E /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 351430D0A1CECCF893BBA82D928A82D7 /* MJRefreshGifHeader.m */; };
+		B53BA21A1B58B19F40221327C861AAFC /* HeroCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB254FAFE1327F6A6C812D31F6FB0 /* HeroCodeView.m */; };
+		B68068167C816426BF51B8AE8C5F23EB /* HeroTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83C18752655C41C6403AD4D4C2673C /* HeroTextView.m */; };
+		B6DBBD60DA32153B5AD7E492034ED450 /* HeroUploadFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A64ED8CDB2C5DAA26BD084BE0146B39 /* HeroUploadFlowLayout.m */; };
+		B73002FCCE40532148F75D62BAFC9190 /* HeroTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = B14F8D0321BF8ED2060F9021AF77E49F /* HeroTouchID.m */; };
+		BD46016C07659F8F25A75D68A553435C /* HeroTapDetectingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69824BAC502270C613BCCEEAAC9881ED /* HeroTapDetectingImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBAD60165BF9FF12FA3C34CAB412D21 /* HeroScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A094306AF933C61A274E714B750D3FA /* HeroScrollView.m */; };
+		C1C40DB556ACB37EE06E193961369175 /* HeroPhotoImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F85F754D2E2C048D45826437269C9A83 /* HeroPhotoImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2232222B6B0D5462DE9652D66FE5F14 /* HeroPaperTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C729B3580DD57169BFC6CA75B89526EE /* HeroPaperTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4FFA9D6A948569A6052C2BA60B33F90 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 629544F9ABDE1337148C6A1021136EB0 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52A34E911EE42054EB091E31B9EC0FC /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD615327C11A75B6CF7AB030CA98B5C /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C540D00FF29183F4030FD4885EF25BB1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1414D585DAD21D1A99FF0DFBC858AB /* UIView+Frame.m */; };
+		C69835CA853833CD0F2B275B3776A2F4 /* HeroIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF7DF5D1CA21AD939B6FB1B27AE933A /* HeroIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C76E3C17F6D684E08A72C271D32DE29E /* HeroLocationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB02D04F88EF5379CDED9D4618ABCC4 /* HeroLocationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A6F6716E39BADEA5B8FDED4A7B0AED /* HeroTakePicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D52A97E146B52C1FA72AB142EC756 /* HeroTakePicCell.m */; };
+		CBBC94374B94B2DEBEBA7BEB4AE97C58 /* HeroContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC2834EF2628005A80AE5AE2D5BE9F /* HeroContactView.m */; };
+		CE4BE36F066ACF2F438F953F8F93C51F /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0A5D85C3EC20D9B05FCCD3E1B6007F /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5D91EAA2F0D8D43C1C57471E6F9947 /* HeroIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A4A339788BA232EABC21778563BDC6 /* HeroIndicator.m */; };
+		D131BA661E2A12F5EE0DE2AD035491FE /* DACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 387E87EEC5F3823367A83BD6FD84039E /* DACircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D131E93825E9FE38A13428EFCF07424D /* HeroImageUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD816779F02C572C9446A385EF583AB8 /* HeroImageUploadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24F2DA1068AFFEB695614608EB9457B /* HeroBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F233DB8EDB460CE820878B697E932CE /* HeroBarButtonItem.m */; };
+		D39B44D73C570B31BE6266B451ADF22B /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D46D0E324EAEB7FAE6149F149880F2D8 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5ACADCB41C1801B7C4CAE42F4F97FAD /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D02CFDBA70217DEABE784710908A78 /* MJRefreshNormalHeader.m */; };
+		D7E4C1F7CECEA6D8C1F30CE44904B60D /* HeroAddCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C31710EDD3716656E74FFBAECB44BE8A /* HeroAddCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F224ED976D67FCB2BE15E955CCE302 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A3E6EFD18A310BB65D59F88DBCE71E /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85387305AC08759608A362B363610F3 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C153BB9C647938B069DD8576C67471CB /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCBAFE77430D904553EC6A1EBC02CA25 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5F0F9D4CE1F427B2F1DF8CBEE927F /* MJRefreshAutoFooter.m */; };
+		E0316BDADFEC8F9867292B4F362AE113 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED5D1E5421695ED6A06AFB9D6E963F /* MJRefreshBackFooter.m */; };
+		E413BC9A01A36509C557A84A3664EE0B /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B9611C2D2C7F291657E32A7549421 /* NSString+Additions.m */; };
+		E5BE4CDA8BA4E4D6BB6D9948C4226C78 /* HeroPaperTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 30063EE0F789ED1AA95FFC2E41C4FBC4 /* HeroPaperTextField.m */; };
+		EA1DD39A02C042463EC3A23F0D67EF99 /* NSURL+HeroUrlEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC73FA7181D66E7BB3E672373C806C8 /* NSURL+HeroUrlEqual.m */; };
+		EB1A0FC4E799B528BD50B35A58D3F7BA /* HeroImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F810989EBD0113030B2D839B989F2BC4 /* HeroImageCell.m */; };
+		F0C67CB886761A173446A6E3CEF669E7 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B8CBAEF894D74F0D9FB5CC4C9644A7 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F21884BFBC4DF2565DFFFC4835B2F390 /* HeroTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B2397C6ED964F250D84808F7DBB9ED /* HeroTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6307C3A29CFE529D0EB6799B6B1E5F8 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38EC1D4E3E92B8ABF954B33093426E /* UIScrollView+MJRefresh.m */; };
+		F705A765563C13960C5CA52CA2DF2F49 /* UINavigationController+webViewBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B028BD14F4DE858827F8F747656271 /* UINavigationController+webViewBack.m */; };
+		F7525E3A89201D0806B961535FD9CAFD /* UIImage+alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 5447BC63CB102778D103422D87A53C24 /* UIImage+alpha.m */; };
+		F7CEC9385856FB91CD4E04B4B4A81358 /* HeroCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B7CCEBE096221AEF708CF7FD458B62 /* HeroCustomButton.m */; };
+		F8EE410276AE86D517E6FACD959FAFB5 /* HeroTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E803E035B664100F49D4CC2D7B276D /* HeroTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94D9C5BECBF989BE660029F6A55E6B0 /* HeroBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A83BB6512BE064DA022F9E5895AD65CE /* HeroBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9DBDB7F5B3304DE63BBE26B4CE0E709 /* hero-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F6D66D96A498D0B5E7EAF357D9EB /* hero-ios-dummy.m */; };
+		FB932F110C8E7C1B222AC9388B4042FF /* HeroImagePickViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D8832DDC6AFCF7CA29FC17FBE43B40 /* HeroImagePickViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC38F48695BAE4DACE66F4797839FD26 /* UILazyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC66EF57F114CA8F75992F9103336F /* UILazyImageView.m */; };
+		FE177FFAD0E324A76DE7E697F77F03A2 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F69ADB4B3E05E77EFBD89AE4C5678A19 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE32E847C35103103F6261BED2967955 /* UILazyImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FB983BD1618913F68653ABF11D9C29 /* UILazyImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF22E461BEA8A5A7C30078D965F2A83D /* UIColor+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = F4941F627C25356DC736B4ED436CEF63 /* UIColor+Reverse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02A716FC43BE20B95627BDAEB65D98BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CEE27166EA1E1325056A2FD1CCBBCD3;
+			remoteInfo = "hero-ios";
+		};
+		9DA73E5DA0B8E9157CD1EC04B3E3EBDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C578BB70ADC2E88475FC3429FD90192E;
+			remoteInfo = MJRefresh;
+		};
+		FBAE0EB440878DB6B650DFB5A4C72CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C578BB70ADC2E88475FC3429FD90192E;
+			remoteInfo = MJRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B15234EE71EC63A64E61F0BEE611DA /* UINavigationController+webViewBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+webViewBack.h"; path = "hero-ios/Classes/UINavigationController+webViewBack.h"; sourceTree = "<group>"; };
+		06210CF1A495B784C46DBBA22BD0DFC5 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C95D134CB5FA81D6CE20108B5B917B /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		093D38DAA22224A8CA28C79AC6CA4F50 /* HeroScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroScrollView.h; path = "hero-ios/Classes/HeroScrollView.h"; sourceTree = "<group>"; };
+		09A8AE47F3A3F4D95A38F54EDA724D63 /* HeroTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroTextField.m; path = "hero-ios/Classes/HeroTextField.m"; sourceTree = "<group>"; };
+		0BFD49845225B308EA99AC5855B265A5 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = "hero-ios/Classes/common.h"; sourceTree = "<group>"; };
+		0C7ABFA1FD8AE872739CF73F7A0F4E3F /* NSDate+ToString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ToString.m"; path = "hero-ios/Classes/NSDate+ToString.m"; sourceTree = "<group>"; };
+		0DD95842049DBAFFAC52B1B144AC8710 /* UIView+Paper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Paper.h"; path = "hero-ios/Classes/UIView+Paper.h"; sourceTree = "<group>"; };
+		0DF5DDC59C6910C6001C77E0D5B55F6E /* HeroImageUploadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroImageUploadView.m; path = "hero-ios/Classes/HeroImageUploadView.m"; sourceTree = "<group>"; };
+		0F233DB8EDB460CE820878B697E932CE /* HeroBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroBarButtonItem.m; path = "hero-ios/Classes/HeroBarButtonItem.m"; sourceTree = "<group>"; };
+		14D8832DDC6AFCF7CA29FC17FBE43B40 /* HeroImagePickViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroImagePickViewController.h; path = "hero-ios/Classes/HeroImagePickViewController.h"; sourceTree = "<group>"; };
+		1709E5789E36FD9D311BD7997E4C857C /* UIView+Screenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Screenshot.h"; path = "hero-ios/Classes/UIView+Screenshot.h"; sourceTree = "<group>"; };
+		183FF227661E251AC008921E04D11F63 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		19346B55947BD7673DBA081AF2B53F9A /* HeroImageUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroImageUploader.m; path = "hero-ios/Classes/HeroImageUploader.m"; sourceTree = "<group>"; };
+		1C3978815F528FFC8278AAEEFD834322 /* HeroTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroTableView.h; path = "hero-ios/Classes/HeroTableView.h"; sourceTree = "<group>"; };
+		1D6CB254FAFE1327F6A6C812D31F6FB0 /* HeroCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroCodeView.m; path = "hero-ios/Classes/HeroCodeView.m"; sourceTree = "<group>"; };
+		1E0A5D85C3EC20D9B05FCCD3E1B6007F /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		1F143FD80EAE1D5E3FEC061FFE301FBE /* HeroImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroImageView.h; path = "hero-ios/Classes/HeroImageView.h"; sourceTree = "<group>"; };
+		258912C09E5F63CB0CB9EC2956C0487C /* HeroChatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroChatView.h; path = "hero-ios/Classes/HeroChatView.h"; sourceTree = "<group>"; };
+		25D02CFDBA70217DEABE784710908A78 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		26047CFCAD857962436E22A28FD8B155 /* UIAlertView+blockDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+blockDelegate.m"; path = "hero-ios/Classes/UIAlertView+blockDelegate.m"; sourceTree = "<group>"; };
+		27FA04C203E98755D717717B6483780E /* HeroImagePickViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroImagePickViewController.m; path = "hero-ios/Classes/HeroImagePickViewController.m"; sourceTree = "<group>"; };
+		2882072F2C2F797B815A8C32324F0781 /* HeroContactView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroContactView.h; path = "hero-ios/Classes/HeroContactView.h"; sourceTree = "<group>"; };
+		29B028BD14F4DE858827F8F747656271 /* UINavigationController+webViewBack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+webViewBack.m"; path = "hero-ios/Classes/UINavigationController+webViewBack.m"; sourceTree = "<group>"; };
+		2A08B4CFDDBBCF0952A714C5125A2BE6 /* HeroScanBarCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroScanBarCodeView.h; path = "hero-ios/Classes/HeroScanBarCodeView.h"; sourceTree = "<group>"; };
+		2A1414D585DAD21D1A99FF0DFBC858AB /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "hero-ios/Classes/UIView+Frame.m"; sourceTree = "<group>"; };
+		2A1EAC64304D58A8A6B702384034C533 /* HeroDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroDevice.h; path = "hero-ios/Classes/HeroDevice.h"; sourceTree = "<group>"; };
+		2A64ED8CDB2C5DAA26BD084BE0146B39 /* HeroUploadFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroUploadFlowLayout.m; path = "hero-ios/Classes/HeroUploadFlowLayout.m"; sourceTree = "<group>"; };
+		2AC73FA7181D66E7BB3E672373C806C8 /* NSURL+HeroUrlEqual.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+HeroUrlEqual.m"; path = "hero-ios/Classes/NSURL+HeroUrlEqual.m"; sourceTree = "<group>"; };
+		2B162491C849B120086D5E600681C1D5 /* UIView+Genie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Genie.h"; path = "hero-ios/Classes/UIView+Genie.h"; sourceTree = "<group>"; };
+		2CFA6483194EEB200A13C5D01C1B0A2D /* Pods-sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sample-resources.sh"; sourceTree = "<group>"; };
+		2DD615327C11A75B6CF7AB030CA98B5C /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		30063EE0F789ED1AA95FFC2E41C4FBC4 /* HeroPaperTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroPaperTextField.m; path = "hero-ios/Classes/HeroPaperTextField.m"; sourceTree = "<group>"; };
+		30C696F8246F0A7AF435FF2C0CA8DBA2 /* HeroSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroSwitch.m; path = "hero-ios/Classes/HeroSwitch.m"; sourceTree = "<group>"; };
+		311EE4D12125626F2DF6E70E33C50B66 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		31270C8EAEF5262CADF3AFE946075499 /* UIDevice+SystemVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SystemVersion.h"; path = "hero-ios/Classes/UIDevice+SystemVersion.h"; sourceTree = "<group>"; };
+		31B0A69A79E2B98C0332461F44168A47 /* UIView+Screenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Screenshot.m"; path = "hero-ios/Classes/UIView+Screenshot.m"; sourceTree = "<group>"; };
+		31B132FE429D4D4F5303CCE4A43C320E /* HeroImagePickFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroImagePickFlowLayout.m; path = "hero-ios/Classes/HeroImagePickFlowLayout.m"; sourceTree = "<group>"; };
+		351430D0A1CECCF893BBA82D928A82D7 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		351767CF8B7868D3AD9B9E249BAA9E14 /* HeroToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroToast.h; path = "hero-ios/Classes/HeroToast.h"; sourceTree = "<group>"; };
+		351C31ABE6095F5FBC3DBF10D5E89A62 /* HeroTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroTableViewCell.m; path = "hero-ios/Classes/HeroTableViewCell.m"; sourceTree = "<group>"; };
+		377E77B62F293066484851E9A5894D86 /* UIImage+alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+alpha.h"; path = "hero-ios/Classes/UIImage+alpha.h"; sourceTree = "<group>"; };
+		387E87EEC5F3823367A83BD6FD84039E /* DACircularProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DACircularProgressView.h; path = "hero-ios/Classes/DACircularProgressView.h"; sourceTree = "<group>"; };
+		3A042C5ACE9E144B48206478838677D3 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		3A094306AF933C61A274E714B750D3FA /* HeroScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroScrollView.m; path = "hero-ios/Classes/HeroScrollView.m"; sourceTree = "<group>"; };
+		3E7AB2B0F8FF98C4C95A99023F02C7AA /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		3EEED5E155AD737C530CC200EFD865B3 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		3F5A344CD35466D29BD9846E1A3E4A94 /* HeroCustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroCustomButton.h; path = "hero-ios/Classes/HeroCustomButton.h"; sourceTree = "<group>"; };
+		4174F0F73DEC14A90AFC17AFA00AC433 /* HeroLockPatternView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroLockPatternView.h; path = "hero-ios/Classes/HeroLockPatternView.h"; sourceTree = "<group>"; };
+		4239CFFA7F55D3DCBB7C26066FB9FD16 /* hero-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "hero-ios.xcconfig"; sourceTree = "<group>"; };
+		42A8946FA10A640E5E3A13234A284067 /* HeroApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroApp.h; path = "hero-ios/Classes/HeroApp.h"; sourceTree = "<group>"; };
+		43EA1EA2BC9F15BA90CA0D707196D752 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		44A0746934E7F998245FC00E088CDF4C /* NSString+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "hero-ios/Classes/NSString+Additions.h"; sourceTree = "<group>"; };
+		458E878AB336DD97AC9A97529A831DC3 /* UIColor+Reverse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Reverse.h"; path = "hero-ios/Classes/UIColor+Reverse.h"; sourceTree = "<group>"; };
+		45CC94D45F53049A9543550C1BDBD8CF /* HeroWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroWebView.m; path = "hero-ios/Classes/HeroWebView.m"; sourceTree = "<group>"; };
+		4EED5D1E5421695ED6A06AFB9D6E963F /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		500C41B658277A109FB49203D62F06DD /* HeroAddCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroAddCell.m; path = "hero-ios/Classes/HeroAddCell.m"; sourceTree = "<group>"; };
+		5447BC63CB102778D103422D87A53C24 /* UIImage+alpha.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+alpha.m"; path = "hero-ios/Classes/UIImage+alpha.m"; sourceTree = "<group>"; };
+		564C65A053D59E79DA62D4D6FFBDC28A /* NSData+HashMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+HashMD5.m"; path = "hero-ios/Classes/NSData+HashMD5.m"; sourceTree = "<group>"; };
+		5797EF9226668477309C3FA94DF3B312 /* HeroDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroDevice.m; path = "hero-ios/Classes/HeroDevice.m"; sourceTree = "<group>"; };
+		5909C1CB01730A1DC95C417B2D70D645 /* HeroBadgeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroBadgeLabel.h; path = "hero-ios/Classes/HeroBadgeLabel.h"; sourceTree = "<group>"; };
+		590ECA1114C96C4EE3D83A62CCDEC5C9 /* HeroSegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroSegmentControl.h; path = "hero-ios/Classes/HeroSegmentControl.h"; sourceTree = "<group>"; };
+		5C6090BE9BD620262643917FCD5528EB /* HeroImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroImageView.m; path = "hero-ios/Classes/HeroImageView.m"; sourceTree = "<group>"; };
+		5DB94D27B00C3C7CDB4407B663B3522D /* UIDevice+SystemVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SystemVersion.m"; path = "hero-ios/Classes/UIDevice+SystemVersion.m"; sourceTree = "<group>"; };
+		60A3E6EFD18A310BB65D59F88DBCE71E /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		629544F9ABDE1337148C6A1021136EB0 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		63780FF5ADF489C00B43BD12902AA3E7 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		645A01F63F718A96EA5AC1820939830F /* UIView+Hero.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Hero.h"; path = "hero-ios/Classes/UIView+Hero.h"; sourceTree = "<group>"; };
+		66AE2C156001C46BB11B10651CF0DC61 /* HeroBrowserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroBrowserCell.m; path = "hero-ios/Classes/HeroBrowserCell.m"; sourceTree = "<group>"; };
+		680FA41039C31EA1DA30169D7822EEC4 /* libPods-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-sample.a"; path = "libPods-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69824BAC502270C613BCCEEAAC9881ED /* HeroTapDetectingImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroTapDetectingImageView.h; path = "hero-ios/Classes/HeroTapDetectingImageView.h"; sourceTree = "<group>"; };
+		6CB44F9E9F917FCA92F4B33598167C27 /* NSData+HashMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+HashMD5.h"; path = "hero-ios/Classes/NSData+HashMD5.h"; sourceTree = "<group>"; };
+		6DCCB9712C91015BBF0CB30FC9EDC576 /* UIView+Hero.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Hero.m"; path = "hero-ios/Classes/UIView+Hero.m"; sourceTree = "<group>"; };
+		6E7012E0B32F03E30BB321EA61B9C639 /* HeroLocationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroLocationView.m; path = "hero-ios/Classes/HeroLocationView.m"; sourceTree = "<group>"; };
+		76C18FE3D1C6F82D4B6B564DF15114E6 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		78468FB98C534E1B38EAC90F4E27FA21 /* HeroImagePickFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroImagePickFlowLayout.h; path = "hero-ios/Classes/HeroImagePickFlowLayout.h"; sourceTree = "<group>"; };
+		7A6DF3198037B7DA5FA6780B78C7FC6E /* HeroViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroViewController.h; path = "hero-ios/Classes/HeroViewController.h"; sourceTree = "<group>"; };
+		7AB5F0F9D4CE1F427B2F1DF8CBEE927F /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		7E826B6050AB2667D78FCFF3C69D431D /* UIView+Paper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Paper.m"; path = "hero-ios/Classes/UIView+Paper.m"; sourceTree = "<group>"; };
+		81FB983BD1618913F68653ABF11D9C29 /* UILazyImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UILazyImageView.h; path = "hero-ios/Classes/UILazyImageView.h"; sourceTree = "<group>"; };
+		820EB47CFAA96C5199C043E0681AD680 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		82B7CCEBE096221AEF708CF7FD458B62 /* HeroCustomButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroCustomButton.m; path = "hero-ios/Classes/HeroCustomButton.m"; sourceTree = "<group>"; };
+		83FF42110EE83FC0CCC95666A2B83E80 /* HeroChatView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroChatView.m; path = "hero-ios/Classes/HeroChatView.m"; sourceTree = "<group>"; };
+		8453F6D66D96A498D0B5E7EAF357D9EB /* hero-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hero-ios-dummy.m"; sourceTree = "<group>"; };
+		85CFBDB6B2A6155F9D73E3DB48C25BE4 /* HeroPhotoBrowerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroPhotoBrowerViewController.m; path = "hero-ios/Classes/HeroPhotoBrowerViewController.m"; sourceTree = "<group>"; };
+		89E803E035B664100F49D4CC2D7B276D /* HeroTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroTextView.h; path = "hero-ios/Classes/HeroTextView.h"; sourceTree = "<group>"; };
+		8B7608E3F41CC34317C8EB186387C371 /* HeroTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroTextField.h; path = "hero-ios/Classes/HeroTextField.h"; sourceTree = "<group>"; };
+		8BAA611F59B620C5F2D3599FBF87ED9C /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		8CA534E0B50576C6D1BCA52DE858B870 /* HeroTapDetectingImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroTapDetectingImageView.m; path = "hero-ios/Classes/HeroTapDetectingImageView.m"; sourceTree = "<group>"; };
+		8D6B6A8E4273E5CAFAD1E93760C16156 /* HeroUploadItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroUploadItem.m; path = "hero-ios/Classes/HeroUploadItem.m"; sourceTree = "<group>"; };
+		8E1567BA4BDB620D8C0BFE86F9B65FFE /* HeroBadgeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroBadgeLabel.m; path = "hero-ios/Classes/HeroBadgeLabel.m"; sourceTree = "<group>"; };
+		8EF7DF5D1CA21AD939B6FB1B27AE933A /* HeroIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroIndicator.h; path = "hero-ios/Classes/HeroIndicator.h"; sourceTree = "<group>"; };
+		8F1B9611C2D2C7F291657E32A7549421 /* NSString+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "hero-ios/Classes/NSString+Additions.m"; sourceTree = "<group>"; };
+		8FF03717347FB28B64966BF486D8FDFB /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		91C3EF4BF442DCED37A57AA1D2AB555B /* HeroSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroSegmentControl.m; path = "hero-ios/Classes/HeroSegmentControl.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C18C01377338D67753FEE817D077FA /* Pods-sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		95189F9AF3FEAF0711079BAC6F0A8F28 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		96282D548AC65DAACAB6603E4C3BF12F /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		9699A5D942AC3DFF4AA449A05C38EAEC /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		97B2397C6ED964F250D84808F7DBB9ED /* HeroTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroTableViewCell.h; path = "hero-ios/Classes/HeroTableViewCell.h"; sourceTree = "<group>"; };
+		994A13430A4BBC4A19BEE0AE6925CFB7 /* HeroChatMsgView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroChatMsgView.h; path = "hero-ios/Classes/HeroChatMsgView.h"; sourceTree = "<group>"; };
+		9A7A5509F02625ED6C46759563E44CC9 /* Pods-sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sample-dummy.m"; sourceTree = "<group>"; };
+		9B552A17FE51C2CC877ABAE1C18FF6DC /* HeroUploadCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroUploadCell.h; path = "hero-ios/Classes/HeroUploadCell.h"; sourceTree = "<group>"; };
+		9CB02D04F88EF5379CDED9D4618ABCC4 /* HeroLocationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroLocationView.h; path = "hero-ios/Classes/HeroLocationView.h"; sourceTree = "<group>"; };
+		9D6824C577B6A897427C26A271F3C98F /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "hero-ios/Classes/NSData+Base64.h"; sourceTree = "<group>"; };
+		9E1BEE9F36F639331F191C91D6FCED4A /* HeroSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroSlider.h; path = "hero-ios/Classes/HeroSlider.h"; sourceTree = "<group>"; };
+		9FBD52838B85FD2D9CC144947E522C8F /* HeroImageUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroImageUploader.h; path = "hero-ios/Classes/HeroImageUploader.h"; sourceTree = "<group>"; };
+		A2806001791FCC2B34D113FDEB440C44 /* HeroTouchID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroTouchID.h; path = "hero-ios/Classes/HeroTouchID.h"; sourceTree = "<group>"; };
+		A2B8CBAEF894D74F0D9FB5CC4C9644A7 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		A2DEBA43FA7B51429FDC8DED1B960BF8 /* HeroCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroCheckBox.m; path = "hero-ios/Classes/HeroCheckBox.m"; sourceTree = "<group>"; };
+		A3487222BFA435701CA251FF09F24E13 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		A3B9ECEFA4471C38005E0AA42001EC3F /* HeroUploadFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroUploadFlowLayout.h; path = "hero-ios/Classes/HeroUploadFlowLayout.h"; sourceTree = "<group>"; };
+		A3EA13486A809A5AA79D8BD9D3B7E400 /* HeroUploadItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroUploadItem.h; path = "hero-ios/Classes/HeroUploadItem.h"; sourceTree = "<group>"; };
+		A404C47474C6DCEF6378CBB66BD78D19 /* HeroImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroImageCell.h; path = "hero-ios/Classes/HeroImageCell.h"; sourceTree = "<group>"; };
+		A6DA7A1AE2E5D6B84D5CFB87BE9E5C5A /* HeroImageUploadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroImageUploadManager.m; path = "hero-ios/Classes/HeroImageUploadManager.m"; sourceTree = "<group>"; };
+		A7CAB2DD7397BE01FD09C26C5DA32229 /* HeroButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroButton.h; path = "hero-ios/Classes/HeroButton.h"; sourceTree = "<group>"; };
+		A83BB6512BE064DA022F9E5895AD65CE /* HeroBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroBarButtonItem.h; path = "hero-ios/Classes/HeroBarButtonItem.h"; sourceTree = "<group>"; };
+		A92D996C591209071CC894104E1D547C /* HeroPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroPickerView.h; path = "hero-ios/Classes/HeroPickerView.h"; sourceTree = "<group>"; };
+		AB3F2938B19E176BFA8C504CC1D91715 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		ABB187D352C67250B704A95E495545CE /* HeroButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroButton.m; path = "hero-ios/Classes/HeroButton.m"; sourceTree = "<group>"; };
+		AD0664175362660CB67A47F00796D965 /* HeroPhotoBrowerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroPhotoBrowerViewController.h; path = "hero-ios/Classes/HeroPhotoBrowerViewController.h"; sourceTree = "<group>"; };
+		AD816779F02C572C9446A385EF583AB8 /* HeroImageUploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroImageUploadManager.h; path = "hero-ios/Classes/HeroImageUploadManager.h"; sourceTree = "<group>"; };
+		AE271AEA5BA8CA8A356EAE620B33CC06 /* libhero-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libhero-ios.a"; path = "libhero-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED14F0ECD2A7056F5C626C74E44D40E /* HeroViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroViewController.m; path = "hero-ios/Classes/HeroViewController.m"; sourceTree = "<group>"; };
+		AFFC612EDA5E0DE55B979A9768463081 /* NSDate+ToString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ToString.h"; path = "hero-ios/Classes/NSDate+ToString.h"; sourceTree = "<group>"; };
+		B14F8D0321BF8ED2060F9021AF77E49F /* HeroTouchID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroTouchID.m; path = "hero-ios/Classes/HeroTouchID.m"; sourceTree = "<group>"; };
+		B191CAE528289C49B534A0B1F27260C9 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		B1A4A339788BA232EABC21778563BDC6 /* HeroIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroIndicator.m; path = "hero-ios/Classes/HeroIndicator.m"; sourceTree = "<group>"; };
+		B1EC2834EF2628005A80AE5AE2D5BE9F /* HeroContactView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroContactView.m; path = "hero-ios/Classes/HeroContactView.m"; sourceTree = "<group>"; };
+		B51082154C70CCEE90DD69949E7F482A /* NSURL+HeroUrlEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+HeroUrlEqual.h"; path = "hero-ios/Classes/NSURL+HeroUrlEqual.h"; sourceTree = "<group>"; };
+		B5160A13FFAED46465F6F346346425B4 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		B68B4A645BE08630D309D79F1B70A63C /* HeroChatMsgView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroChatMsgView.m; path = "hero-ios/Classes/HeroChatMsgView.m"; sourceTree = "<group>"; };
+		B85F6B4D7176D120AE928EA1FE43FD98 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "hero-ios/Classes/UIView+Frame.h"; sourceTree = "<group>"; };
+		B88595C208150E2D16DBADD22B074C1B /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		B9B7FB2BE22F467CC8CC2675FA5BA015 /* UIView+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "hero-ios/Classes/UIView+Addition.m"; sourceTree = "<group>"; };
+		BA7917709A4C2A07298A7A155E73161F /* UIView+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "hero-ios/Classes/UIView+Addition.h"; sourceTree = "<group>"; };
+		BAC8699F58736BEB74AC2797BAE7EE59 /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6A499E2D4167EAB29A6C7510FBB50E /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		C153BB9C647938B069DD8576C67471CB /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		C18182F3113056809993153C19CB1823 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		C248EFA6FAE72287A78EB582316B137A /* HeroImageUploadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroImageUploadView.h; path = "hero-ios/Classes/HeroImageUploadView.h"; sourceTree = "<group>"; };
+		C31710EDD3716656E74FFBAECB44BE8A /* HeroAddCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroAddCell.h; path = "hero-ios/Classes/HeroAddCell.h"; sourceTree = "<group>"; };
+		C35A66812424F3B07C752CD2913D736A /* hero-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hero-ios-prefix.pch"; sourceTree = "<group>"; };
+		C676F3BC606D145281A845CC707D7BFE /* HeroLockPatternView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroLockPatternView.m; path = "hero-ios/Classes/HeroLockPatternView.m"; sourceTree = "<group>"; };
+		C6CE4B256FD742B3994B1B1DB4CBCFAC /* UIAlertView+blockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+blockDelegate.h"; path = "hero-ios/Classes/UIAlertView+blockDelegate.h"; sourceTree = "<group>"; };
+		C6D75CF3FA02D414A0FDD14AEB99D5B5 /* HeroSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroSlider.m; path = "hero-ios/Classes/HeroSlider.m"; sourceTree = "<group>"; };
+		C6F937A825311B207D4D5836A74558B0 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		C729B3580DD57169BFC6CA75B89526EE /* HeroPaperTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroPaperTextField.h; path = "hero-ios/Classes/HeroPaperTextField.h"; sourceTree = "<group>"; };
+		C9BB10907455F80CAC3EC41E0B10C4F7 /* Pods-sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA3A87925539EEAB97DD09DBCBF4C0DD /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		CB742198C5B5A4FEF23A0C8AD12458CA /* HeroApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroApp.m; path = "hero-ios/Classes/HeroApp.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE38EC1D4E3E92B8ABF954B33093426E /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		CE83C18752655C41C6403AD4D4C2673C /* HeroTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroTextView.m; path = "hero-ios/Classes/HeroTextView.m"; sourceTree = "<group>"; };
+		D0A54AA74116CF439922A8D6BD014E32 /* HeroCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroCheckBox.h; path = "hero-ios/Classes/HeroCheckBox.h"; sourceTree = "<group>"; };
+		D0BF9BB77B8CED9321EEA84B81D86604 /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "hero-ios/Classes/NSData+Base64.m"; sourceTree = "<group>"; };
+		D19E80F1274D9F21AA36A480ECB8DF6C /* HeroTakePicCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroTakePicCell.h; path = "hero-ios/Classes/HeroTakePicCell.h"; sourceTree = "<group>"; };
+		D254AA70A4FEFF0BF48CD3EC1C0F559A /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		D46D0E324EAEB7FAE6149F149880F2D8 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		D6C06C65307E050EAA1BBA8B32FD9BF8 /* HeroScanBarCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroScanBarCodeView.m; path = "hero-ios/Classes/HeroScanBarCodeView.m"; sourceTree = "<group>"; };
+		D6C25F6FCAE85A7BA57533373AB7909D /* HeroSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroSwitch.h; path = "hero-ios/Classes/HeroSwitch.h"; sourceTree = "<group>"; };
+		D91CED20DE2A79ED3CE6619CB1ED6EC6 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		D9A204812C443A5828F0AEE7E2504014 /* HeroBrowserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroBrowserCell.h; path = "hero-ios/Classes/HeroBrowserCell.h"; sourceTree = "<group>"; };
+		DD14F8EE574F3EE2A9421E5E93CA95C9 /* HeroUploadCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroUploadCell.m; path = "hero-ios/Classes/HeroUploadCell.m"; sourceTree = "<group>"; };
+		DD2BCBCAFA12651A673B7FD71CA08DBF /* UIView+Genie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Genie.m"; path = "hero-ios/Classes/UIView+Genie.m"; sourceTree = "<group>"; };
+		E2886A547C5BDD714D9C44039B37E26B /* Pods-sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sample-frameworks.sh"; sourceTree = "<group>"; };
+		E2A503C9EA762FB7A6697101E9D5C2D5 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		E3B10A42B5CC89FEF084124B0A884091 /* Pods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sample.release.xcconfig"; sourceTree = "<group>"; };
+		E47C9E96862B9801442FD5B70B0728A6 /* HeroActionSheetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroActionSheetView.m; path = "hero-ios/Classes/HeroActionSheetView.m"; sourceTree = "<group>"; };
+		E4CC66EF57F114CA8F75992F9103336F /* UILazyImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UILazyImageView.m; path = "hero-ios/Classes/UILazyImageView.m"; sourceTree = "<group>"; };
+		E92BE48DC0CC243A6960AE5B3CDC785E /* HeroActionSheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroActionSheetView.h; path = "hero-ios/Classes/HeroActionSheetView.h"; sourceTree = "<group>"; };
+		EA1C379E57306DCEED75B64DC1DC2372 /* HeroPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroPickerView.m; path = "hero-ios/Classes/HeroPickerView.m"; sourceTree = "<group>"; };
+		EA6233463D05A14E25022503C81AD614 /* HeroLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroLabel.m; path = "hero-ios/Classes/HeroLabel.m"; sourceTree = "<group>"; };
+		EC4E2E8494897764523CDABD7F9161D1 /* HeroWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroWebView.h; path = "hero-ios/Classes/HeroWebView.h"; sourceTree = "<group>"; };
+		EDB43F91C2E552162130E8662CC588D7 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		EF8779193C228ED56CBABC3B170450FA /* HeroCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroCodeView.h; path = "hero-ios/Classes/HeroCodeView.h"; sourceTree = "<group>"; };
+		F12D52A97E146B52C1FA72AB142EC756 /* HeroTakePicCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroTakePicCell.m; path = "hero-ios/Classes/HeroTakePicCell.m"; sourceTree = "<group>"; };
+		F48EF57C3175F96F7D1273333D2CCB93 /* hero.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hero.h; path = "hero-ios/Classes/hero.h"; sourceTree = "<group>"; };
+		F4941F627C25356DC736B4ED436CEF63 /* UIColor+Reverse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Reverse.m"; path = "hero-ios/Classes/UIColor+Reverse.m"; sourceTree = "<group>"; };
+		F554E0DAAB782C74033A2B048EC27FC5 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		F69ADB4B3E05E77EFBD89AE4C5678A19 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		F810989EBD0113030B2D839B989F2BC4 /* HeroImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroImageCell.m; path = "hero-ios/Classes/HeroImageCell.m"; sourceTree = "<group>"; };
+		F85F754D2E2C048D45826437269C9A83 /* HeroPhotoImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroPhotoImage.h; path = "hero-ios/Classes/HeroPhotoImage.h"; sourceTree = "<group>"; };
+		F9A963BA3FE2B96DAFACA80289C15559 /* HeroLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeroLabel.h; path = "hero-ios/Classes/HeroLabel.h"; sourceTree = "<group>"; };
+		FB529BD251EE8A596A7235AAC423ABE8 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		FC10EE97373D308C943948A6C41DFA28 /* HeroToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroToast.m; path = "hero-ios/Classes/HeroToast.m"; sourceTree = "<group>"; };
+		FC69F9A2FAD33F700DED1C5637C8DF25 /* DACircularProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DACircularProgressView.m; path = "hero-ios/Classes/DACircularProgressView.m"; sourceTree = "<group>"; };
+		FC92496A711AC6AA1429600DB34C59EB /* HeroTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeroTableView.m; path = "hero-ios/Classes/HeroTableView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9AA012E12E744A47662BD0B080E16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB41AF770D80D12A7F116CDD2C43B38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA081490486D274384F04039222C757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AE0D96CFE3E0225F590C4C55569B1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DCFF1794483C2A5357FB8AEA9AA775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C3549DA4577A74C71AE0333A0B12ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B78FABD91D241159F6C9B82334B2F54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4239CFFA7F55D3DCBB7C26066FB9FD16 /* hero-ios.xcconfig */,
+				8453F6D66D96A498D0B5E7EAF357D9EB /* hero-ios-dummy.m */,
+				C35A66812424F3B07C752CD2913D736A /* hero-ios-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/hero-ios";
+			sourceTree = "<group>";
+		};
+		0D31E30E7B0E3B19A385188E7D077AE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB958D4352AE19AC3A0B1684636CE66 /* hero-ios */,
+				D7494CC2A5BFA69F859871ADD8E75D82 /* MJRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C8EA42DEC601E9874DDCEBCEBA311C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED911A30E85B23B81D6BCE95699CAA /* Pods-sample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0D31E30E7B0E3B19A385188E7D077AE7 /* Pods */,
+				8632C3F9B1AF05931AA362F9A3DC533E /* Products */,
+				2C8EA42DEC601E9874DDCEBCEBA311C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8632C3F9B1AF05931AA362F9A3DC533E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE271AEA5BA8CA8A356EAE620B33CC06 /* libhero-ios.a */,
+				06210CF1A495B784C46DBBA22BD0DFC5 /* libMJRefresh.a */,
+				680FA41039C31EA1DA30169D7822EEC4 /* libPods-sample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE4E4C62BD47F61AFFA3D85D050E604 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				820EB47CFAA96C5199C043E0681AD680 /* MJRefresh.xcconfig */,
+				06C95D134CB5FA81D6CE20108B5B917B /* MJRefresh-dummy.m */,
+				3EEED5E155AD737C530CC200EFD865B3 /* MJRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		AFB958D4352AE19AC3A0B1684636CE66 /* hero-ios */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD49845225B308EA99AC5855B265A5 /* common.h */,
+				387E87EEC5F3823367A83BD6FD84039E /* DACircularProgressView.h */,
+				FC69F9A2FAD33F700DED1C5637C8DF25 /* DACircularProgressView.m */,
+				F48EF57C3175F96F7D1273333D2CCB93 /* hero.h */,
+				E92BE48DC0CC243A6960AE5B3CDC785E /* HeroActionSheetView.h */,
+				E47C9E96862B9801442FD5B70B0728A6 /* HeroActionSheetView.m */,
+				C31710EDD3716656E74FFBAECB44BE8A /* HeroAddCell.h */,
+				500C41B658277A109FB49203D62F06DD /* HeroAddCell.m */,
+				42A8946FA10A640E5E3A13234A284067 /* HeroApp.h */,
+				CB742198C5B5A4FEF23A0C8AD12458CA /* HeroApp.m */,
+				5909C1CB01730A1DC95C417B2D70D645 /* HeroBadgeLabel.h */,
+				8E1567BA4BDB620D8C0BFE86F9B65FFE /* HeroBadgeLabel.m */,
+				A83BB6512BE064DA022F9E5895AD65CE /* HeroBarButtonItem.h */,
+				0F233DB8EDB460CE820878B697E932CE /* HeroBarButtonItem.m */,
+				D9A204812C443A5828F0AEE7E2504014 /* HeroBrowserCell.h */,
+				66AE2C156001C46BB11B10651CF0DC61 /* HeroBrowserCell.m */,
+				A7CAB2DD7397BE01FD09C26C5DA32229 /* HeroButton.h */,
+				ABB187D352C67250B704A95E495545CE /* HeroButton.m */,
+				994A13430A4BBC4A19BEE0AE6925CFB7 /* HeroChatMsgView.h */,
+				B68B4A645BE08630D309D79F1B70A63C /* HeroChatMsgView.m */,
+				258912C09E5F63CB0CB9EC2956C0487C /* HeroChatView.h */,
+				83FF42110EE83FC0CCC95666A2B83E80 /* HeroChatView.m */,
+				D0A54AA74116CF439922A8D6BD014E32 /* HeroCheckBox.h */,
+				A2DEBA43FA7B51429FDC8DED1B960BF8 /* HeroCheckBox.m */,
+				EF8779193C228ED56CBABC3B170450FA /* HeroCodeView.h */,
+				1D6CB254FAFE1327F6A6C812D31F6FB0 /* HeroCodeView.m */,
+				2882072F2C2F797B815A8C32324F0781 /* HeroContactView.h */,
+				B1EC2834EF2628005A80AE5AE2D5BE9F /* HeroContactView.m */,
+				3F5A344CD35466D29BD9846E1A3E4A94 /* HeroCustomButton.h */,
+				82B7CCEBE096221AEF708CF7FD458B62 /* HeroCustomButton.m */,
+				2A1EAC64304D58A8A6B702384034C533 /* HeroDevice.h */,
+				5797EF9226668477309C3FA94DF3B312 /* HeroDevice.m */,
+				A404C47474C6DCEF6378CBB66BD78D19 /* HeroImageCell.h */,
+				F810989EBD0113030B2D839B989F2BC4 /* HeroImageCell.m */,
+				78468FB98C534E1B38EAC90F4E27FA21 /* HeroImagePickFlowLayout.h */,
+				31B132FE429D4D4F5303CCE4A43C320E /* HeroImagePickFlowLayout.m */,
+				14D8832DDC6AFCF7CA29FC17FBE43B40 /* HeroImagePickViewController.h */,
+				27FA04C203E98755D717717B6483780E /* HeroImagePickViewController.m */,
+				9FBD52838B85FD2D9CC144947E522C8F /* HeroImageUploader.h */,
+				19346B55947BD7673DBA081AF2B53F9A /* HeroImageUploader.m */,
+				AD816779F02C572C9446A385EF583AB8 /* HeroImageUploadManager.h */,
+				A6DA7A1AE2E5D6B84D5CFB87BE9E5C5A /* HeroImageUploadManager.m */,
+				C248EFA6FAE72287A78EB582316B137A /* HeroImageUploadView.h */,
+				0DF5DDC59C6910C6001C77E0D5B55F6E /* HeroImageUploadView.m */,
+				1F143FD80EAE1D5E3FEC061FFE301FBE /* HeroImageView.h */,
+				5C6090BE9BD620262643917FCD5528EB /* HeroImageView.m */,
+				8EF7DF5D1CA21AD939B6FB1B27AE933A /* HeroIndicator.h */,
+				B1A4A339788BA232EABC21778563BDC6 /* HeroIndicator.m */,
+				F9A963BA3FE2B96DAFACA80289C15559 /* HeroLabel.h */,
+				EA6233463D05A14E25022503C81AD614 /* HeroLabel.m */,
+				9CB02D04F88EF5379CDED9D4618ABCC4 /* HeroLocationView.h */,
+				6E7012E0B32F03E30BB321EA61B9C639 /* HeroLocationView.m */,
+				4174F0F73DEC14A90AFC17AFA00AC433 /* HeroLockPatternView.h */,
+				C676F3BC606D145281A845CC707D7BFE /* HeroLockPatternView.m */,
+				C729B3580DD57169BFC6CA75B89526EE /* HeroPaperTextField.h */,
+				30063EE0F789ED1AA95FFC2E41C4FBC4 /* HeroPaperTextField.m */,
+				AD0664175362660CB67A47F00796D965 /* HeroPhotoBrowerViewController.h */,
+				85CFBDB6B2A6155F9D73E3DB48C25BE4 /* HeroPhotoBrowerViewController.m */,
+				F85F754D2E2C048D45826437269C9A83 /* HeroPhotoImage.h */,
+				A92D996C591209071CC894104E1D547C /* HeroPickerView.h */,
+				EA1C379E57306DCEED75B64DC1DC2372 /* HeroPickerView.m */,
+				2A08B4CFDDBBCF0952A714C5125A2BE6 /* HeroScanBarCodeView.h */,
+				D6C06C65307E050EAA1BBA8B32FD9BF8 /* HeroScanBarCodeView.m */,
+				093D38DAA22224A8CA28C79AC6CA4F50 /* HeroScrollView.h */,
+				3A094306AF933C61A274E714B750D3FA /* HeroScrollView.m */,
+				590ECA1114C96C4EE3D83A62CCDEC5C9 /* HeroSegmentControl.h */,
+				91C3EF4BF442DCED37A57AA1D2AB555B /* HeroSegmentControl.m */,
+				9E1BEE9F36F639331F191C91D6FCED4A /* HeroSlider.h */,
+				C6D75CF3FA02D414A0FDD14AEB99D5B5 /* HeroSlider.m */,
+				D6C25F6FCAE85A7BA57533373AB7909D /* HeroSwitch.h */,
+				30C696F8246F0A7AF435FF2C0CA8DBA2 /* HeroSwitch.m */,
+				1C3978815F528FFC8278AAEEFD834322 /* HeroTableView.h */,
+				FC92496A711AC6AA1429600DB34C59EB /* HeroTableView.m */,
+				97B2397C6ED964F250D84808F7DBB9ED /* HeroTableViewCell.h */,
+				351C31ABE6095F5FBC3DBF10D5E89A62 /* HeroTableViewCell.m */,
+				D19E80F1274D9F21AA36A480ECB8DF6C /* HeroTakePicCell.h */,
+				F12D52A97E146B52C1FA72AB142EC756 /* HeroTakePicCell.m */,
+				69824BAC502270C613BCCEEAAC9881ED /* HeroTapDetectingImageView.h */,
+				8CA534E0B50576C6D1BCA52DE858B870 /* HeroTapDetectingImageView.m */,
+				8B7608E3F41CC34317C8EB186387C371 /* HeroTextField.h */,
+				09A8AE47F3A3F4D95A38F54EDA724D63 /* HeroTextField.m */,
+				89E803E035B664100F49D4CC2D7B276D /* HeroTextView.h */,
+				CE83C18752655C41C6403AD4D4C2673C /* HeroTextView.m */,
+				351767CF8B7868D3AD9B9E249BAA9E14 /* HeroToast.h */,
+				FC10EE97373D308C943948A6C41DFA28 /* HeroToast.m */,
+				A2806001791FCC2B34D113FDEB440C44 /* HeroTouchID.h */,
+				B14F8D0321BF8ED2060F9021AF77E49F /* HeroTouchID.m */,
+				9B552A17FE51C2CC877ABAE1C18FF6DC /* HeroUploadCell.h */,
+				DD14F8EE574F3EE2A9421E5E93CA95C9 /* HeroUploadCell.m */,
+				A3B9ECEFA4471C38005E0AA42001EC3F /* HeroUploadFlowLayout.h */,
+				2A64ED8CDB2C5DAA26BD084BE0146B39 /* HeroUploadFlowLayout.m */,
+				A3EA13486A809A5AA79D8BD9D3B7E400 /* HeroUploadItem.h */,
+				8D6B6A8E4273E5CAFAD1E93760C16156 /* HeroUploadItem.m */,
+				7A6DF3198037B7DA5FA6780B78C7FC6E /* HeroViewController.h */,
+				AED14F0ECD2A7056F5C626C74E44D40E /* HeroViewController.m */,
+				EC4E2E8494897764523CDABD7F9161D1 /* HeroWebView.h */,
+				45CC94D45F53049A9543550C1BDBD8CF /* HeroWebView.m */,
+				9D6824C577B6A897427C26A271F3C98F /* NSData+Base64.h */,
+				D0BF9BB77B8CED9321EEA84B81D86604 /* NSData+Base64.m */,
+				6CB44F9E9F917FCA92F4B33598167C27 /* NSData+HashMD5.h */,
+				564C65A053D59E79DA62D4D6FFBDC28A /* NSData+HashMD5.m */,
+				AFFC612EDA5E0DE55B979A9768463081 /* NSDate+ToString.h */,
+				0C7ABFA1FD8AE872739CF73F7A0F4E3F /* NSDate+ToString.m */,
+				44A0746934E7F998245FC00E088CDF4C /* NSString+Additions.h */,
+				8F1B9611C2D2C7F291657E32A7549421 /* NSString+Additions.m */,
+				B51082154C70CCEE90DD69949E7F482A /* NSURL+HeroUrlEqual.h */,
+				2AC73FA7181D66E7BB3E672373C806C8 /* NSURL+HeroUrlEqual.m */,
+				C6CE4B256FD742B3994B1B1DB4CBCFAC /* UIAlertView+blockDelegate.h */,
+				26047CFCAD857962436E22A28FD8B155 /* UIAlertView+blockDelegate.m */,
+				458E878AB336DD97AC9A97529A831DC3 /* UIColor+Reverse.h */,
+				F4941F627C25356DC736B4ED436CEF63 /* UIColor+Reverse.m */,
+				31270C8EAEF5262CADF3AFE946075499 /* UIDevice+SystemVersion.h */,
+				5DB94D27B00C3C7CDB4407B663B3522D /* UIDevice+SystemVersion.m */,
+				377E77B62F293066484851E9A5894D86 /* UIImage+alpha.h */,
+				5447BC63CB102778D103422D87A53C24 /* UIImage+alpha.m */,
+				81FB983BD1618913F68653ABF11D9C29 /* UILazyImageView.h */,
+				E4CC66EF57F114CA8F75992F9103336F /* UILazyImageView.m */,
+				02B15234EE71EC63A64E61F0BEE611DA /* UINavigationController+webViewBack.h */,
+				29B028BD14F4DE858827F8F747656271 /* UINavigationController+webViewBack.m */,
+				BA7917709A4C2A07298A7A155E73161F /* UIView+Addition.h */,
+				B9B7FB2BE22F467CC8CC2675FA5BA015 /* UIView+Addition.m */,
+				B85F6B4D7176D120AE928EA1FE43FD98 /* UIView+Frame.h */,
+				2A1414D585DAD21D1A99FF0DFBC858AB /* UIView+Frame.m */,
+				2B162491C849B120086D5E600681C1D5 /* UIView+Genie.h */,
+				DD2BCBCAFA12651A673B7FD71CA08DBF /* UIView+Genie.m */,
+				645A01F63F718A96EA5AC1820939830F /* UIView+Hero.h */,
+				6DCCB9712C91015BBF0CB30FC9EDC576 /* UIView+Hero.m */,
+				0DD95842049DBAFFAC52B1B144AC8710 /* UIView+Paper.h */,
+				7E826B6050AB2667D78FCFF3C69D431D /* UIView+Paper.m */,
+				1709E5789E36FD9D311BD7997E4C857C /* UIView+Screenshot.h */,
+				31B0A69A79E2B98C0332461F44168A47 /* UIView+Screenshot.m */,
+				0B78FABD91D241159F6C9B82334B2F54 /* Support Files */,
+			);
+			name = "hero-ios";
+			path = "hero-ios";
+			sourceTree = "<group>";
+		};
+		B24AD3BE2B7C56E2FA39D64238E15D1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E7AB2B0F8FF98C4C95A99023F02C7AA /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7494CC2A5BFA69F859871ADD8E75D82 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				D46D0E324EAEB7FAE6149F149880F2D8 /* MJRefresh.h */,
+				43EA1EA2BC9F15BA90CA0D707196D752 /* MJRefreshAutoFooter.h */,
+				7AB5F0F9D4CE1F427B2F1DF8CBEE927F /* MJRefreshAutoFooter.m */,
+				629544F9ABDE1337148C6A1021136EB0 /* MJRefreshAutoGifFooter.h */,
+				76C18FE3D1C6F82D4B6B564DF15114E6 /* MJRefreshAutoGifFooter.m */,
+				1E0A5D85C3EC20D9B05FCCD3E1B6007F /* MJRefreshAutoNormalFooter.h */,
+				AB3F2938B19E176BFA8C504CC1D91715 /* MJRefreshAutoNormalFooter.m */,
+				FB529BD251EE8A596A7235AAC423ABE8 /* MJRefreshAutoStateFooter.h */,
+				63780FF5ADF489C00B43BD12902AA3E7 /* MJRefreshAutoStateFooter.m */,
+				183FF227661E251AC008921E04D11F63 /* MJRefreshBackFooter.h */,
+				4EED5D1E5421695ED6A06AFB9D6E963F /* MJRefreshBackFooter.m */,
+				B88595C208150E2D16DBADD22B074C1B /* MJRefreshBackGifFooter.h */,
+				C6F937A825311B207D4D5836A74558B0 /* MJRefreshBackGifFooter.m */,
+				BC6A499E2D4167EAB29A6C7510FBB50E /* MJRefreshBackNormalFooter.h */,
+				E2A503C9EA762FB7A6697101E9D5C2D5 /* MJRefreshBackNormalFooter.m */,
+				2DD615327C11A75B6CF7AB030CA98B5C /* MJRefreshBackStateFooter.h */,
+				C18182F3113056809993153C19CB1823 /* MJRefreshBackStateFooter.m */,
+				EDB43F91C2E552162130E8662CC588D7 /* MJRefreshComponent.h */,
+				311EE4D12125626F2DF6E70E33C50B66 /* MJRefreshComponent.m */,
+				9699A5D942AC3DFF4AA449A05C38EAEC /* MJRefreshConst.h */,
+				A3487222BFA435701CA251FF09F24E13 /* MJRefreshConst.m */,
+				F69ADB4B3E05E77EFBD89AE4C5678A19 /* MJRefreshFooter.h */,
+				D91CED20DE2A79ED3CE6619CB1ED6EC6 /* MJRefreshFooter.m */,
+				8FF03717347FB28B64966BF486D8FDFB /* MJRefreshGifHeader.h */,
+				351430D0A1CECCF893BBA82D928A82D7 /* MJRefreshGifHeader.m */,
+				B5160A13FFAED46465F6F346346425B4 /* MJRefreshHeader.h */,
+				CA3A87925539EEAB97DD09DBCBF4C0DD /* MJRefreshHeader.m */,
+				C153BB9C647938B069DD8576C67471CB /* MJRefreshNormalHeader.h */,
+				25D02CFDBA70217DEABE784710908A78 /* MJRefreshNormalHeader.m */,
+				F554E0DAAB782C74033A2B048EC27FC5 /* MJRefreshStateHeader.h */,
+				D254AA70A4FEFF0BF48CD3EC1C0F559A /* MJRefreshStateHeader.m */,
+				B191CAE528289C49B534A0B1F27260C9 /* NSBundle+MJRefresh.h */,
+				8BAA611F59B620C5F2D3599FBF87ED9C /* NSBundle+MJRefresh.m */,
+				60A3E6EFD18A310BB65D59F88DBCE71E /* UIScrollView+MJExtension.h */,
+				95189F9AF3FEAF0711079BAC6F0A8F28 /* UIScrollView+MJExtension.m */,
+				A2B8CBAEF894D74F0D9FB5CC4C9644A7 /* UIScrollView+MJRefresh.h */,
+				CE38EC1D4E3E92B8ABF954B33093426E /* UIScrollView+MJRefresh.m */,
+				96282D548AC65DAACAB6603E4C3BF12F /* UIView+MJExtension.h */,
+				3A042C5ACE9E144B48206478838677D3 /* UIView+MJExtension.m */,
+				B24AD3BE2B7C56E2FA39D64238E15D1A /* Resources */,
+				ADE4E4C62BD47F61AFFA3D85D050E604 /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		F2ED911A30E85B23B81D6BCE95699CAA /* Pods-sample */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB10907455F80CAC3EC41E0B10C4F7 /* Pods-sample-acknowledgements.markdown */,
+				94C18C01377338D67753FEE817D077FA /* Pods-sample-acknowledgements.plist */,
+				9A7A5509F02625ED6C46759563E44CC9 /* Pods-sample-dummy.m */,
+				E2886A547C5BDD714D9C44039B37E26B /* Pods-sample-frameworks.sh */,
+				2CFA6483194EEB200A13C5D01C1B0A2D /* Pods-sample-resources.sh */,
+				BAC8699F58736BEB74AC2797BAE7EE59 /* Pods-sample.debug.xcconfig */,
+				E3B10A42B5CC89FEF084124B0A884091 /* Pods-sample.release.xcconfig */,
+			);
+			name = "Pods-sample";
+			path = "Target Support Files/Pods-sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BDF0DF7136573F52A2E915963F5ECCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39B44D73C570B31BE6266B451ADF22B /* MJRefresh.h in Headers */,
+				A2113D03F15C81C407D76D7AD699720E /* MJRefreshAutoFooter.h in Headers */,
+				C4FFA9D6A948569A6052C2BA60B33F90 /* MJRefreshAutoGifFooter.h in Headers */,
+				CE4BE36F066ACF2F438F953F8F93C51F /* MJRefreshAutoNormalFooter.h in Headers */,
+				34F9D947384240D4DA77742428508259 /* MJRefreshAutoStateFooter.h in Headers */,
+				244B324ABB363D244C7CF199BC68C37E /* MJRefreshBackFooter.h in Headers */,
+				AA8E5B09D0D698691D71F80DF4A48D75 /* MJRefreshBackGifFooter.h in Headers */,
+				92B39336D13F0DECAB37F50853A4E90E /* MJRefreshBackNormalFooter.h in Headers */,
+				C52A34E911EE42054EB091E31B9EC0FC /* MJRefreshBackStateFooter.h in Headers */,
+				7BC83EA6F1DBA8773628597E325CD769 /* MJRefreshComponent.h in Headers */,
+				96C76AD61C4FCCF1B905084EF88D1F48 /* MJRefreshConst.h in Headers */,
+				FE177FFAD0E324A76DE7E697F77F03A2 /* MJRefreshFooter.h in Headers */,
+				000EB8ED6CE0C80A548B62DD44D29FFE /* MJRefreshGifHeader.h in Headers */,
+				0D3498B3EA6392F154BA58F20B4D0A97 /* MJRefreshHeader.h in Headers */,
+				D85387305AC08759608A362B363610F3 /* MJRefreshNormalHeader.h in Headers */,
+				9A3E135382C51613D97416281C769182 /* MJRefreshStateHeader.h in Headers */,
+				076093101ACFB19CDA4E8F2157789E3A /* NSBundle+MJRefresh.h in Headers */,
+				D7F224ED976D67FCB2BE15E955CCE302 /* UIScrollView+MJExtension.h in Headers */,
+				F0C67CB886761A173446A6E3CEF669E7 /* UIScrollView+MJRefresh.h in Headers */,
+				22C40F10F19C23F901577C062AB125E7 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E4B1212454CF87151AF724DE597D68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38156B4A021A4401A0C564A6193EBAF7 /* common.h in Headers */,
+				D131BA661E2A12F5EE0DE2AD035491FE /* DACircularProgressView.h in Headers */,
+				5E5613020440461E109ABCF396EFE4A8 /* hero.h in Headers */,
+				097C2179C78B742DA54CD1E582960E48 /* HeroActionSheetView.h in Headers */,
+				D7E4C1F7CECEA6D8C1F30CE44904B60D /* HeroAddCell.h in Headers */,
+				0F278358012862151760718CEB09311F /* HeroApp.h in Headers */,
+				0C214C32B11D4A0A33DF51E1CE2213F1 /* HeroBadgeLabel.h in Headers */,
+				F94D9C5BECBF989BE660029F6A55E6B0 /* HeroBarButtonItem.h in Headers */,
+				94874E1B0849D3A9330BC53491D913B5 /* HeroBrowserCell.h in Headers */,
+				37B5A99D1ACD68F4633AE157FE8405D2 /* HeroButton.h in Headers */,
+				80571AB3A199C4DBEBD0A71CA9F57FDD /* HeroChatMsgView.h in Headers */,
+				AC84E0F48F0E0959F524E66E70771A85 /* HeroChatView.h in Headers */,
+				593267E7F6F3825286D5EE8C286D1970 /* HeroCheckBox.h in Headers */,
+				0F320CCA0F67235B2894EE86E43D4D02 /* HeroCodeView.h in Headers */,
+				1CF905599DFBA8C15F81DDC3CEA0029A /* HeroContactView.h in Headers */,
+				351FDC9F62D90E70D2FC04EAB7545BEE /* HeroCustomButton.h in Headers */,
+				05E866566FE5DE719941392ED7013353 /* HeroDevice.h in Headers */,
+				91D87AFC4D33BA7BBDE1574545ED03BE /* HeroImageCell.h in Headers */,
+				8FB4212221DEE5FE36812FEFF3A9F025 /* HeroImagePickFlowLayout.h in Headers */,
+				FB932F110C8E7C1B222AC9388B4042FF /* HeroImagePickViewController.h in Headers */,
+				8C4456DF704B15A32DD521A61E4022B8 /* HeroImageUploader.h in Headers */,
+				D131E93825E9FE38A13428EFCF07424D /* HeroImageUploadManager.h in Headers */,
+				1587CD902448E797ABD327AF727B0CB0 /* HeroImageUploadView.h in Headers */,
+				513CE8E0B8E9AAEF20979EAFD836D3F1 /* HeroImageView.h in Headers */,
+				C69835CA853833CD0F2B275B3776A2F4 /* HeroIndicator.h in Headers */,
+				A23BEF4FF53F192170B10D6B0747E18C /* HeroLabel.h in Headers */,
+				C76E3C17F6D684E08A72C271D32DE29E /* HeroLocationView.h in Headers */,
+				6C5FC8BCBDCAE5D7466FA97A6145F7BF /* HeroLockPatternView.h in Headers */,
+				C2232222B6B0D5462DE9652D66FE5F14 /* HeroPaperTextField.h in Headers */,
+				51E1D464651CF79371468BE32EEEF92F /* HeroPhotoBrowerViewController.h in Headers */,
+				C1C40DB556ACB37EE06E193961369175 /* HeroPhotoImage.h in Headers */,
+				782D15BB93ACA8232D7C6788CD8A54A9 /* HeroPickerView.h in Headers */,
+				60DFE4B36CE9EEB451000E62D5A55259 /* HeroScanBarCodeView.h in Headers */,
+				0ADB6EAD07826099D6CBF7C6EC9BBC3B /* HeroScrollView.h in Headers */,
+				8D66645D89F142477289AEC66A8AC452 /* HeroSegmentControl.h in Headers */,
+				28143A56916A37C1D62413137C3EFF69 /* HeroSlider.h in Headers */,
+				77904A895D8FC37E7C838767020B7E38 /* HeroSwitch.h in Headers */,
+				7DDDDBB54BD57F031B521E5FDE995A3E /* HeroTableView.h in Headers */,
+				F21884BFBC4DF2565DFFFC4835B2F390 /* HeroTableViewCell.h in Headers */,
+				A04271E4CD14DDC8AEBC6B8DE48CB0A6 /* HeroTakePicCell.h in Headers */,
+				BD46016C07659F8F25A75D68A553435C /* HeroTapDetectingImageView.h in Headers */,
+				88F4E80D8A83E8E425F28CF0A02ADE73 /* HeroTextField.h in Headers */,
+				F8EE410276AE86D517E6FACD959FAFB5 /* HeroTextView.h in Headers */,
+				6FB3DFAF42908C41F8C3C27F88D76C21 /* HeroToast.h in Headers */,
+				99B6CF8B8353E5D329EAD8377350F9E2 /* HeroTouchID.h in Headers */,
+				A95550633CDC6C20023D10915DD26D1C /* HeroUploadCell.h in Headers */,
+				423E8A7145865E08AC3AE5F802FD53B0 /* HeroUploadFlowLayout.h in Headers */,
+				B12D0D4B46C34A2F564676B99B6076D3 /* HeroUploadItem.h in Headers */,
+				0873F98413B26F1B95EDA6919BB63531 /* HeroViewController.h in Headers */,
+				83ED807C7824AEA1C68597CBD504404A /* HeroWebView.h in Headers */,
+				96F7F9856EF10083E2B968A4D48B6169 /* NSData+Base64.h in Headers */,
+				3285CE0619FB116EBE7C927C8A043E2D /* NSData+HashMD5.h in Headers */,
+				2B50C6D032F1BA605ED6485350CC042A /* NSDate+ToString.h in Headers */,
+				69B0EBD3749BCDC42C9ACA6287E2DF6B /* NSString+Additions.h in Headers */,
+				1E8082E2824E52E1C52277C2C38A1AA8 /* NSURL+HeroUrlEqual.h in Headers */,
+				7C3EE7D3DBFD54D79797EFD9EA1F7FEA /* UIAlertView+blockDelegate.h in Headers */,
+				8A5D81084B2059A8F7E0AAA54E680D5C /* UIColor+Reverse.h in Headers */,
+				6E2A7CFE632F716D6D4D1E03D1784C77 /* UIDevice+SystemVersion.h in Headers */,
+				AF6484F0A328761CD3A7E5EE8612BC01 /* UIImage+alpha.h in Headers */,
+				FE32E847C35103103F6261BED2967955 /* UILazyImageView.h in Headers */,
+				5F2F0D64ACE7E1D6B0FB5C703830256A /* UINavigationController+webViewBack.h in Headers */,
+				241CAFC9A639CC02EC14418EE6DDE983 /* UIView+Addition.h in Headers */,
+				3F4BA45B44FF52AEF2D91B827E15DBF1 /* UIView+Frame.h in Headers */,
+				B15339322E8571E9614D61B3AD5E1822 /* UIView+Genie.h in Headers */,
+				1BB35249F086E8C3E10DF208CCB9C797 /* UIView+Hero.h in Headers */,
+				4BD2AA59A2B45DFE879C3DBC2C57BBFB /* UIView+Paper.h in Headers */,
+				383FB373A7AB1924A7E499E868C0CCB7 /* UIView+Screenshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CEE27166EA1E1325056A2FD1CCBBCD3 /* hero-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23952B3C480E6F4AFFB45C9A01ED59D3 /* Build configuration list for PBXNativeTarget "hero-ios" */;
+			buildPhases = (
+				5744D093455E03DF3BAADE774F8FC7CA /* Sources */,
+				CFA081490486D274384F04039222C757 /* Frameworks */,
+				84E4B1212454CF87151AF724DE597D68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01826223D9E7C0E855215EB085C9873E /* PBXTargetDependency */,
+			);
+			name = "hero-ios";
+			productName = "hero-ios";
+			productReference = AE271AEA5BA8CA8A356EAE620B33CC06 /* libhero-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		61522E0B4AB423923967A1594D21FAC6 /* Pods-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96E5965F2DD89DF510F458D342449D2 /* Build configuration list for PBXNativeTarget "Pods-sample" */;
+			buildPhases = (
+				8343AF5ECBD6C49548BF471DEC7C9E5E /* Sources */,
+				6E9AA012E12E744A47662BD0B080E16E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963FEED3FCEC94357101F48B75B6EE88 /* PBXTargetDependency */,
+				798D86AF5E8520E1B4BEC4B03663F280 /* PBXTargetDependency */,
+			);
+			name = "Pods-sample";
+			productName = "Pods-sample";
+			productReference = 680FA41039C31EA1DA30169D7822EEC4 /* libPods-sample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C578BB70ADC2E88475FC3429FD90192E /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5328B85954C470B6FF0D1A428E2623 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				4A7AEEB9F6F1C23EE1EF4982439ACBA6 /* Sources */,
+				F2DCFF1794483C2A5357FB8AEA9AA775 /* Frameworks */,
+				6BDF0DF7136573F52A2E915963F5ECCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = 06210CF1A495B784C46DBBA22BD0DFC5 /* libMJRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8632C3F9B1AF05931AA362F9A3DC533E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CEE27166EA1E1325056A2FD1CCBBCD3 /* hero-ios */,
+				C578BB70ADC2E88475FC3429FD90192E /* MJRefresh */,
+				61522E0B4AB423923967A1594D21FAC6 /* Pods-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7AEEB9F6F1C23EE1EF4982439ACBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A72A3508EA484A9986E2082A38CB15 /* MJRefresh-dummy.m in Sources */,
+				DCBAFE77430D904553EC6A1EBC02CA25 /* MJRefreshAutoFooter.m in Sources */,
+				B193A0DADF33B879166C34F37C63B576 /* MJRefreshAutoGifFooter.m in Sources */,
+				30C17AFAAD0D8D80076EEBC5153A80EA /* MJRefreshAutoNormalFooter.m in Sources */,
+				AAA28D2485DA8A4AD910A320B824BF4D /* MJRefreshAutoStateFooter.m in Sources */,
+				E0316BDADFEC8F9867292B4F362AE113 /* MJRefreshBackFooter.m in Sources */,
+				864BC08B8994C7DD9D641C1720D2B128 /* MJRefreshBackGifFooter.m in Sources */,
+				9CCD4796561ECBF89D3D90CA4DBAAEDA /* MJRefreshBackNormalFooter.m in Sources */,
+				83C79D8A292360931799950303D71B62 /* MJRefreshBackStateFooter.m in Sources */,
+				623248AE8CD31E49D95C9A83B62CDB1F /* MJRefreshComponent.m in Sources */,
+				AC76F42EC99AEDE2F4825C093D98700E /* MJRefreshConst.m in Sources */,
+				65B409ED73B8048B11A5D50CCD54C182 /* MJRefreshFooter.m in Sources */,
+				B3FE827718A4BAD1D2825319CEB1093E /* MJRefreshGifHeader.m in Sources */,
+				97B5089703616E171CBA7E842536F2C2 /* MJRefreshHeader.m in Sources */,
+				D5ACADCB41C1801B7C4CAE42F4F97FAD /* MJRefreshNormalHeader.m in Sources */,
+				91E2D2102B354F247A0E1C46302DDAD9 /* MJRefreshStateHeader.m in Sources */,
+				6B7B6963EDC1654C9BE528A0281E05C7 /* NSBundle+MJRefresh.m in Sources */,
+				3FB03EFA1348AF72C6BC578489B440F3 /* UIScrollView+MJExtension.m in Sources */,
+				F6307C3A29CFE529D0EB6799B6B1E5F8 /* UIScrollView+MJRefresh.m in Sources */,
+				474BB71B0D45A6CBC4F50C0A9D4A36A7 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5744D093455E03DF3BAADE774F8FC7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CC71F83BC1ACA906E22A7D06698237 /* DACircularProgressView.m in Sources */,
+				F9DBDB7F5B3304DE63BBE26B4CE0E709 /* hero-ios-dummy.m in Sources */,
+				AE6F9E3CD473D435F0D38A261E6D9A7A /* HeroActionSheetView.m in Sources */,
+				A5E71F7DDD660232F473DF57EAA21E27 /* HeroAddCell.m in Sources */,
+				39CDB1F8F397EA697921154C42CC6481 /* HeroApp.m in Sources */,
+				62C826ACB2796560FFFAA06EEC97E9AE /* HeroBadgeLabel.m in Sources */,
+				D24F2DA1068AFFEB695614608EB9457B /* HeroBarButtonItem.m in Sources */,
+				0874FCE0A0749C856DB8366929330962 /* HeroBrowserCell.m in Sources */,
+				3FC9692410950528312DF838F9B9D799 /* HeroButton.m in Sources */,
+				3963BF58E0F0EB6A2E014B10685628F5 /* HeroChatMsgView.m in Sources */,
+				20DB598F23DD94A12C7C76EAB087D101 /* HeroChatView.m in Sources */,
+				5B78445370034BFD558EF6FEFBC5A5FB /* HeroCheckBox.m in Sources */,
+				B53BA21A1B58B19F40221327C861AAFC /* HeroCodeView.m in Sources */,
+				CBBC94374B94B2DEBEBA7BEB4AE97C58 /* HeroContactView.m in Sources */,
+				F7CEC9385856FB91CD4E04B4B4A81358 /* HeroCustomButton.m in Sources */,
+				615C94BFFE3F97AC7D625E6DAC3FF0EA /* HeroDevice.m in Sources */,
+				EB1A0FC4E799B528BD50B35A58D3F7BA /* HeroImageCell.m in Sources */,
+				054FE6FD444A2F8FB8511EB1A432A7BB /* HeroImagePickFlowLayout.m in Sources */,
+				1FC6C712CC206179469115DA8E90CA37 /* HeroImagePickViewController.m in Sources */,
+				27488041A30C2EDD045E872A216BACA2 /* HeroImageUploader.m in Sources */,
+				17D32C71BF49D7A1438AF95BACD9D510 /* HeroImageUploadManager.m in Sources */,
+				B0C48480CB574582883CAA49B661355B /* HeroImageUploadView.m in Sources */,
+				010678413755ADB79D8ED0249C7B3C68 /* HeroImageView.m in Sources */,
+				CF5D91EAA2F0D8D43C1C57471E6F9947 /* HeroIndicator.m in Sources */,
+				3F4FF66983DE62B4549D4A99E718A3CA /* HeroLabel.m in Sources */,
+				6AD6BB14070273670651DDFF966B96C4 /* HeroLocationView.m in Sources */,
+				ACDD07CB6F4821FB3AFFD4725BE96FCF /* HeroLockPatternView.m in Sources */,
+				E5BE4CDA8BA4E4D6BB6D9948C4226C78 /* HeroPaperTextField.m in Sources */,
+				695A77049E035898BFDEAB23000159A0 /* HeroPhotoBrowerViewController.m in Sources */,
+				074FBDECC77DF7862FED87C23DD3E120 /* HeroPickerView.m in Sources */,
+				775E441B836A91A0AC12A927852AF608 /* HeroScanBarCodeView.m in Sources */,
+				BDBAD60165BF9FF12FA3C34CAB412D21 /* HeroScrollView.m in Sources */,
+				A9732940D85D596C419D3DBD05696FA5 /* HeroSegmentControl.m in Sources */,
+				6773E4B4D758C7A0220481A3C7EDA7A6 /* HeroSlider.m in Sources */,
+				1BECA1AF440AFAC2C2F6FACAF1EA705D /* HeroSwitch.m in Sources */,
+				6B99A9A0B8E4FD43822AC766C0651A85 /* HeroTableView.m in Sources */,
+				A2DAE4E77ED10309D1BCC9C2BD5F0921 /* HeroTableViewCell.m in Sources */,
+				C7A6F6716E39BADEA5B8FDED4A7B0AED /* HeroTakePicCell.m in Sources */,
+				2381FFE02EAFDA72889DA91A60EB79B0 /* HeroTapDetectingImageView.m in Sources */,
+				24CCBA8DC9C86200556D0C05C51D151B /* HeroTextField.m in Sources */,
+				B68068167C816426BF51B8AE8C5F23EB /* HeroTextView.m in Sources */,
+				4CB4F1FC9FAA702D782DCA7B335051B3 /* HeroToast.m in Sources */,
+				B73002FCCE40532148F75D62BAFC9190 /* HeroTouchID.m in Sources */,
+				01707A6E8F1E8A492B027E5D782788AA /* HeroUploadCell.m in Sources */,
+				B6DBBD60DA32153B5AD7E492034ED450 /* HeroUploadFlowLayout.m in Sources */,
+				388CCA7DC33E9D4CCF73D7E3D952BDBA /* HeroUploadItem.m in Sources */,
+				16D1AB3E4D5A336B818BC2716FF8B350 /* HeroViewController.m in Sources */,
+				41835545898DE3A5F3E2FF05EE8855DF /* HeroWebView.m in Sources */,
+				6899775D0490E23011975D0E96FECE94 /* NSData+Base64.m in Sources */,
+				441A9A2C14642A7B60D2D31CAA12CB83 /* NSData+HashMD5.m in Sources */,
+				30F7BF79B67555927D247911097C78FF /* NSDate+ToString.m in Sources */,
+				E413BC9A01A36509C557A84A3664EE0B /* NSString+Additions.m in Sources */,
+				EA1DD39A02C042463EC3A23F0D67EF99 /* NSURL+HeroUrlEqual.m in Sources */,
+				6B422F5BC31709683A00A65C73D0912B /* UIAlertView+blockDelegate.m in Sources */,
+				FF22E461BEA8A5A7C30078D965F2A83D /* UIColor+Reverse.m in Sources */,
+				0F0C1ED6FC8899305B4F70A7F22649E0 /* UIDevice+SystemVersion.m in Sources */,
+				F7525E3A89201D0806B961535FD9CAFD /* UIImage+alpha.m in Sources */,
+				FC38F48695BAE4DACE66F4797839FD26 /* UILazyImageView.m in Sources */,
+				F705A765563C13960C5CA52CA2DF2F49 /* UINavigationController+webViewBack.m in Sources */,
+				3F86F59D1E9CFED7A4D83B0977A05CAE /* UIView+Addition.m in Sources */,
+				C540D00FF29183F4030FD4885EF25BB1 /* UIView+Frame.m in Sources */,
+				89B489765BA5ABDE09471166EE44A110 /* UIView+Genie.m in Sources */,
+				632D9BEEC84FCF97678B371E6F744E91 /* UIView+Hero.m in Sources */,
+				12DE0B23E07CA0ED13E407CA4CA39C96 /* UIView+Paper.m in Sources */,
+				B0F7A70DBBBFC4E1DE2AC6C2F4AD66E8 /* UIView+Screenshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8343AF5ECBD6C49548BF471DEC7C9E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8943846CC6D78CF9C1762141E5B9FDD2 /* Pods-sample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01826223D9E7C0E855215EB085C9873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = C578BB70ADC2E88475FC3429FD90192E /* MJRefresh */;
+			targetProxy = FBAE0EB440878DB6B650DFB5A4C72CFB /* PBXContainerItemProxy */;
+		};
+		798D86AF5E8520E1B4BEC4B03663F280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "hero-ios";
+			target = 1CEE27166EA1E1325056A2FD1CCBBCD3 /* hero-ios */;
+			targetProxy = 02A716FC43BE20B95627BDAEB65D98BD /* PBXContainerItemProxy */;
+		};
+		963FEED3FCEC94357101F48B75B6EE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = C578BB70ADC2E88475FC3429FD90192E /* MJRefresh */;
+			targetProxy = 9DA73E5DA0B8E9157CD1EC04B3E3EBDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4865CE32DEDEB5C26E8F1E20874BAD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820EB47CFAA96C5199C043E0681AD680 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80478A3943C29DDB1EBE32F95E2EC8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC8699F58736BEB74AC2797BAE7EE59 /* Pods-sample.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8DB4F5E66B38A62E9A2038752D10968D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B10A42B5CC89FEF084124B0A884091 /* Pods-sample.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9CDA5EEE3A14A943FCC624270AA893F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4239CFFA7F55D3DCBB7C26066FB9FD16 /* hero-ios.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/hero-ios/hero-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D0C643122D71A19511BADDC9E1EDB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4239CFFA7F55D3DCBB7C26066FB9FD16 /* hero-ios.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/hero-ios/hero-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3396F2344140326C521194161F1FB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820EB47CFAA96C5199C043E0681AD680 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5328B85954C470B6FF0D1A428E2623 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4865CE32DEDEB5C26E8F1E20874BAD15 /* Debug */,
+				D3396F2344140326C521194161F1FB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23952B3C480E6F4AFFB45C9A01ED59D3 /* Build configuration list for PBXNativeTarget "hero-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDA5EEE3A14A943FCC624270AA893F0 /* Debug */,
+				9D0C643122D71A19511BADDC9E1EDB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96E5965F2DD89DF510F458D342449D2 /* Build configuration list for PBXNativeTarget "Pods-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80478A3943C29DDB1EBE32F95E2EC8BA /* Debug */,
+				8DB4F5E66B38A62E9A2038752D10968D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

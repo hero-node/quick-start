@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<script type="text/javascript" src="js/hero.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/herohelper.js"></script>
+	<script type="text/javascript">
+	var entryList = [
+	{
+		sectionTitle:'对话',
+		rows:[
+			{title:'1',url:path+'chat.html'},
+		]
+	},
+	{
+		sectionTitle:'cash',
+		rows:[
+			{title:'home',url:path+'login.html'},
+		]
+	},
+	]
+	Hero.on = function(data){
+		if (data.url) {
+			Hero.out({command:'goto:'+data.url});
+		};
+	};
+	Hero.viewWillAppear = function() {
+
+	};
+	Hero.viewWillDisAppear = function() {
+		
+	};
+	Hero.viewDidload = function() {
+		
+	};
+	Hero.ui = {
+		version:-1,
+		tintColor:'333333',
+		nav:{
+			title:"测试入口",
+		},
+		views:
+		[
+			{
+				class:'HeroTableView',
+				frame:{w:'1x',h:'1x'},
+				name:'list',
+				data:entryList,
+			},
+
+		]
+	};
+
+</script>
+</head>
+</html>
