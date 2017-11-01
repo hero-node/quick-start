@@ -4,6 +4,7 @@ var apis = [
 var express = require('express');
 var http = require('http');
 var fs = require('fs');
+var path = require('path');
 var app = express();
 var server = http.createServer(app);
 var proxy = require('express-http-proxy');
@@ -20,6 +21,8 @@ for (var i = 0; i < apis.length; i++) {
         }));
     }
 }
+
+
 app.use('/', express.static('./', {
     maxAge: 0
 }));
@@ -52,6 +55,8 @@ var io = require('socket.io')(server);
 io.on('connection', socketProcess);
 
 var port = 3000;
+
+// app.use('/pages', express.static(path.resolve(__dirname, 'pages')));
 
 server.listen(port, function () {
     console.log('Server running on http://localhost:' + port);
