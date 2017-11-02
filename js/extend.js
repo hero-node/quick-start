@@ -1,10 +1,6 @@
 var extend = [
-	'http://sdkjs.oss-cn-shanghai.aliyuncs.com/hybrid_jssdk.js?v=9',
-	'js/ke.js',
 ]
 var extend_debug = [
-	'http://sdkjs.oss-cn-shanghai.aliyuncs.com/hybrid_jssdk.js?v=9',
-	'js/ke.js',
     '/socket.io/socket.io.js',
     'js/autoRefresh.js',
 ]
