@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/md5.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+Hero.viewWillAppear = function(){
+    localStorage.phone = '';
+    Hero.datas({name:'loginContainner',subViews:[
+        {
+            class:'HeroButton',
+            frame:{x:'0',y:'36',w:'60',h:'26'},
+            title:'点击登录',
+            size:12,
+            borderColor:'ffffff',
+            titleColor:'ffffff',
+            click:[{command:'present:'+path+'/login.html'},{command:{'showMenu':false}}]
+        }
+    ]});
+}
+Hero.on = function(json){
+    if (json.name === 'phone') {
+        if(Hero.ui2Data.phone && Hero.ui2Data.phone.length === 11){
+            window.phone = Hero.ui2Data.phone;
+            Hero.datas({name:'loginBtn',enable:true})
+        }else{
+            Hero.datas({name:'loginBtn',enable:false})
+        }
+    }
+    if (json.click === 'login') {
+        if (!(/^1[34578]\d{9}$/.test(Hero.ui2Data.phone))) {
+            Hero.datas({name:'toast',text:'请输入合法手机号'})
+        }else{
+            window.HeroHelper.get('/fag/recv',{service:'login',identity_id:Hero.ui2Data.phone,identity_type:'MOBILE'},function(json){
+                localStorage.phoneTmp = Hero.ui2Data.phone;
+                localStorage.ticket = json.ticket;
+                Hero.command('goto:'+path+'/login1.html');
+            });
+        }
+    };
+    if (json.click === 'lisence') {
+    };
+}
+
+var Color_Menu = '4a4a4a';
+var Color_RightText = '28b6a4';
+var Color_BorderLine = 'e9e8e8';
+
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'My Account',
+          titleColor: 'ffffff',
+          tintColor: Color_RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:'ffffff',
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Meatball',
+              frame:{x:'53',w:'200',y:'15',h:'17'},
+              text:'Meatball',
+              textColor:Color_Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Meatball+15',
+            backgroundColor:Color_BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Invitation_Code',
+              frame:{x:'53',w:'200',h:'17'},
+              yOffset: 'ID_Meatball+30',
+              text:'Invitation Code',
+              textColor:Color_Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Invitation_Code+15',
+            backgroundColor:Color_BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              frame:{r:'15',w:'200',h:'17'},
+              yOffset: 'ID_Meatball+30',
+              text:'A12B3C',
+              alignment:'right',
+              textColor:Color_RightText,
+              size:16
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_My_Download',
+              frame:{x:'53',w:'200',h:'17'},
+              yOffset: 'ID_Invitation_Code+30',
+              text:'My Download',
+              textColor:Color_Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_My_Download+15',
+            backgroundColor:Color_BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              frame:{r:'15',w:'200',h:'17'},
+              yOffset: 'ID_Invitation_Code+30',
+              text:'200',
+              alignment:'right',
+              textColor:Color_RightText,
+              size:16
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Change_Password',
+              frame:{x:'53',w:'200',y:'15',h:'17'},
+              yOffset: 'ID_My_Download+30',
+              text:'Change Password',
+              textColor:Color_Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Change_Password+15',
+            backgroundColor:Color_BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Logout',
+              frame:{x:'53',w:'200',h:'17'},
+              yOffset: 'ID_Change_Password+30',
+              text:'Logout',
+              textColor:Color_Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Logout+15',
+            backgroundColor:Color_BorderLine,
+          },
+          // {
+          //     class:'UIView',
+          //     frame:{x:'0',r:'0',y:'256',h:'1'},
+          //     backgroundColor:'eeeeee',
+          // },
+          // {
+          //     class:'UIView',
+          //     frame:{x:'0',r:'0',y:'306',h:'1'},
+          //     backgroundColor:'eeeeee',
+          // },
+          // {
+          //     class:'UIView',
+          //     frame:{x:'0',r:'0',y:'356',h:'1'},
+          //     backgroundColor:'eeeeee',
+          // },
+          // {
+          //     class:'HeroLabel',
+          //     frame:{x:'15',w:'200',y:'218',h:'17'},
+          //     text:'申请金额',
+          //     textColor:'666666',
+          //     size:16
+          // },
+          // {
+          //     class:'HeroLabel',
+          //     frame:{x:'15',w:'200',y:'273',h:'17'},
+          //     text:'还款日',
+          //     textColor:'666666',
+          //     size:16
+          // },
+          // {
+          //     class:'HeroLabel',
+          //     frame:{x:'15',w:'200',y:'320',h:'17'},
+          //     text:'应还金额',
+          //     textColor:'666666',
+          //     size:16
+          // },
+          // {
+          //     class:'HeroLabel',
+          //     frame:{r:'15',w:'200',y:'206',h:'23'},
+          //     text:  '200元',
+          //     alignment:'right',
+          //     textColor:'333333',
+          //     size:16
+          // },
+          // {
+          //     class:'HeroLabel',
+          //     frame:{r:'15',w:'200',y:'230',h:'17'},
+          //     text:'预计2小时内到账',
+          //     alignment:'right',
+          //     textColor:'666666',
+          //     size:12
+          // },
+          // {
+          //     class:'HeroLabel',
+          //     frame:{r:'15',w:'200',y:'273',h:'17'},
+          //     text:localStorage.payDate,
+          //     alignment:'right',
+          //     textColor:'333333',
+          //     size:16
+          // }
+
+    ]
+
+}
+
+</script>
+</head>
+</html>

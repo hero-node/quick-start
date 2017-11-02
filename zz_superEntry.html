@@ -5,14 +5,16 @@
 	<script type="text/javascript" src="js/config.js"></script>
 	<script type="text/javascript" src="js/herohelper.js"></script>
 	<script type="text/javascript">
+
+  var _path = path + 'pages/';
+
 	var entryList = [
 	{
 		sectionTitle:'cash',
 		rows:[
 			{title:'login',url:path+'login.html'},
 		]
-	},
-	]
+	}
 	Hero.on = function(data){
 		if (data.url) {
 			Hero.out({command:'goto:'+data.url});
@@ -22,10 +24,10 @@
 
 	};
 	Hero.viewWillDisAppear = function() {
-		
+
 	};
 	Hero.viewDidload = function() {
-		
+
 	};
 	Hero.ui = {
 		version:-1,
