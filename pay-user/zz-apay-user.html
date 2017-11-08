@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<script type="text/javascript" src="../js/hero.js"></script>
+	<script type="text/javascript" src="../js/config.js"></script>
+	<script type="text/javascript" src="../js/herohelper.js"></script>
+	<script type="text/javascript">
+
+  var _path = path+'/pay-user';
+
+	var entryList = [
+  {
+		sectionTitle:'Home',
+		rows:[
+			{title:'Dashboard',url:_path+'/home.html'},
+		]
+	},
+  {
+		sectionTitle:'Login',
+		rows:[
+			{title:'Login',url:_path+'/login.html'},
+		]
+	},
+  {
+		sectionTitle:'Account',
+		rows:[
+			{title:'My Account',url:_path+'/my-account.html'},
+			{title:'My Downloads',url:_path+'/my-downloads.html'},
+		]
+	},
+	{
+		sectionTitle:'Balance',
+		rows:[
+			{title:'Balance',url:_path+'/balance.html'},
+			{title:'Income Detail',url:_path+'/income-detail.html'},
+			{title:'Income History',url:_path+'/income-history.html'},
+			{title:'Recieve Success',url:_path+'/receive-success.html'},
+			{title:'Recieve',url:_path+'/receive.html'},
+			{title:'Transaction Detail',url:_path+'/transaction-detail.html'},
+		]
+	},
+
+  {
+    sectionTitle:'Notification',
+    rows:[
+      {title:'Notification',url:_path+'/notification.html'},
+    ]
+  },
+  {
+    sectionTitle:'Settings',
+    rows:[
+      {title:'Settings',url:_path+'/settings.html'},
+    ]
+  },
+  {
+    sectionTitle:'Sign Up',
+    rows:[
+      {title:'Personal Basic',url:_path+'/personal-basic.html'},
+      {title:'Business Basic',url:_path+'/business-basic.html'},
+      {title:'Password Setting',url:_path+'/sign-up-password.html'},
+    ]
+  },
+  {
+    sectionTitle:'Withdraw',
+    rows:[
+      {title:'Withdraw',url:_path+'/withdraw.html'},
+      {title:'Withdraw Confirm',url:_path+'/withdraw-info-input.html'},
+      {title:'Withdraw Bank Search',url:_path+'/withdraw-bank-search.html'},
+      {title:'Withdraw Success',url:_path+'/withdraw-success.html'},
+      {title:'Withdraw Detail',url:_path+'/withdraw-detail.html'},
+    ]
+  },
+	]
+	Hero.on = function(data){
+		if (data.url) {
+			Hero.out({command:'goto:'+data.url});
+		};
+	};
+	Hero.viewWillAppear = function() {
+
+	};
+	Hero.viewWillDisAppear = function() {
+
+	};
+	Hero.viewDidload = function() {
+
+	};
+	Hero.ui = {
+		version:-1,
+		tintColor:'333333',
+		nav:{
+			title:"测试入口",
+		},
+		views:
+		[
+			{
+				class:'HeroTableView',
+				frame:{w:'1x',h:'1x'},
+				name:'list',
+				data:entryList,
+			},
+
+		]
+	};
+
+</script>
+</head>
+</html>

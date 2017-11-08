@@ -54,7 +54,7 @@ var io = require('socket.io')(server);
 
 io.on('connection', socketProcess);
 
-var port = 3000;
+var port = 4000;
 
 // app.use('/pages', express.static(path.resolve(__dirname, 'pages')));
 
