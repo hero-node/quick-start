@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+var _MessageData = [{
+  content: 'You received +20,000',
+  unread: true
+},{
+  content: 'Withdraw -Rp. 300,000 Success!',
+  unread: false
+},{
+  content: 'You received +50,000',
+  unread: true
+},{
+  content: 'Welcome to APay, enjoy!!',
+  unread: false
+}]
+var _rows = []
+for(var i=0,len=_MessageData.length;i<len;i++){
+  _rows.push({
+          class: 'UIView',
+          frame: { w: '1x', h: '50' },
+          subViews: [
+              {
+                  class: 'HeroLabel',
+                  frame: { l: '40', r: '0', y: '20', h: '18' },
+                  hAuto: true,
+                  textColor: _MessageData[i].unread?window.Color.Menu:window.Color.Gray,
+                  text: _MessageData[i].content,
+                  size: 16
+              },
+              {
+                  class: 'UIView',
+                  frame: { x: '0', w: '1x', b: '0', h: '1' },
+                  backgroundColor: window.Color.BorderLine
+              },
+              {
+                  class: 'UIView',
+                  frame: { x: '22', w: '6', y: '24', h: '6' },
+                  backgroundColor: _MessageData[i].unread?window.Color.RightText:window.Color.Gray,
+                  cornerRadius: '3'
+              }
+          ]
+  })
+}
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'Notification',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:window.Color.White,
+          },
+          {
+            class:'HeroTableView',
+            frame: {x:'0', y:'0', w: '1x'},
+            data: [{
+                sectionTitle: '',
+                rows: _rows
+            }]
+          },
+    ]
+
+}
+
+</script>
+</head>
+</html>

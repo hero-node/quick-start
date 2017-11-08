@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'My Account',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:'ffffff',
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Meatball',
+              frame:{x:'53',w:'200',y:'15',h:'17'},
+              text:'Meatball',
+              textColor:window.Color.Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Meatball+15',
+            backgroundColor:window.Color.BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Invitation_Code',
+              frame:{x:'53',w:'200',h:'17'},
+              yOffset: 'ID_Meatball+30',
+              text:'Invitation Code',
+              textColor:window.Color.Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Invitation_Code+15',
+            backgroundColor:window.Color.BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              frame:{r:'15',w:'200',h:'17'},
+              yOffset: 'ID_Meatball+30',
+              text:'A12B3C',
+              alignment:'right',
+              textColor:window.Color.RightText,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'53',w:'200',h:'17'},
+            name: 'ID_My_Download',
+            yOffset: 'ID_Invitation_Code+30',
+            subViews: [{
+                class: 'HeroButton',
+                click:{command:'goto:'+path+'/my-downloads.html'},
+                frame: { w: '1x', h: '1x' }
+            },{
+              class:'HeroLabel',
+              text:'My Download',
+              textColor:window.Color.Menu,
+              size:16
+            }]
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_My_Download+15',
+            backgroundColor:window.Color.BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              frame:{r:'15',w:'200',h:'17'},
+              yOffset: 'ID_Invitation_Code+30',
+              text:'200',
+              alignment:'right',
+              textColor:window.Color.RightText,
+              size:16
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Change_Password',
+              frame:{x:'53',w:'200',y:'15',h:'17'},
+              yOffset: 'ID_My_Download+30',
+              text:'Change Password',
+              textColor:window.Color.Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Change_Password+15',
+            backgroundColor:window.Color.BorderLine,
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Logout',
+              frame:{x:'53',w:'200',h:'17'},
+              yOffset: 'ID_Change_Password+30',
+              text:'Logout',
+              textColor:window.Color.Menu,
+              size:16
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',r:'0',h:'1'},
+            yOffset: 'ID_Logout+15',
+            backgroundColor:window.Color.BorderLine,
+          }
+    ]
+
+}
+
+</script>
+</head>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'Income Details',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:window.Color.White,
+          },
+          {
+              class:'UIView',
+              frame:{w:'1x',x:'0',y:'0',h:'200'},
+              subViews: [
+                {
+                  class: 'UIView',
+                  frame:{w:'100',x:'0',y:'0',h:'70'},
+                  center: {x:'0.5x'},
+                  subViews: [
+                    {
+                        class: 'HeroImageView',
+                        frame: { x: '0', w: '30', h: '30', y: '22' },
+                        image: path + '/images/income-logo.png'
+                    },
+                    {
+                        class:'HeroLabel',
+                        frame:{x:'40',y:'30',h:'22'},
+                        text:i18n('Income'),
+                        textColor:window.Color.Menu,
+                        size:16
+                    }
+                  ]
+                },
+                {
+                    class:'HeroButton',
+                    frame:{h:'30',w:'80',y:'116'},
+                    title:i18n('Success'),
+                    borderWidth: '1',
+                    cornerRadius: '4',
+                    center: {x: '0.5x'},
+                    backgroundColor: window.Color.Success,
+                    borderColor: window.Color.Success,
+                    size:14,
+                    titleColor:window.Color.White,
+                },
+                {
+                    class:'HeroLabel',
+                    frame:{w:'1x', y:'70',h:'34'},
+                    alignment:'center',
+                    center: {x:'0.5x'},
+                    text:i18n('+Rp. 20,000'),
+                    textColor:window.Color.Menu,
+                    size:34
+                },
+                {
+                    class:'HeroLabel',
+                    frame:{x:'10.5',w:'0.5x',b:'15',h:'16'},
+                    text:'Saving Account',
+                    textColor:window.Color.Menu,
+                    size:14
+                },
+                {
+                    class:'HeroLabel',
+                    frame:{r:'8',w:'0.5x',h:'16', b:'15'},
+                    text:'Balance',
+                    alignment:'right',
+                    textColor:window.Color.BorderLine,
+                    size:14
+                },
+                {
+                  class:'UIView',
+                  frame:{x:'0',b:'0',w:'1x',h:'1'},
+                  backgroundColor:window.Color.BorderLine,
+                }
+              ]
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',w:'1x',h:'88', y: '200'},
+            subViews: [
+              {
+                  class:'HeroLabel',
+                  frame:{x:'10.5',w:'0.5x',y:'8',h:'16'},
+                  text:'Date',
+                  textColor:window.Color.Menu,
+                  size:14
+              },
+              {
+                  class:'HeroLabel',
+                  frame:{r:'8',w:'0.5x',h:'16', y:'8'},
+                  text:'09-04-2017 15:35:30',
+                  alignment:'right',
+                  textColor:window.Color.BorderLine,
+                  size:14
+              },
+              {
+                  class:'HeroLabel',
+                  frame:{x:'10.5',w:'0.5x',h:'16', y:'32'},
+                  text:'Transaction Number',
+                  textColor:window.Color.Menu,
+                  size:14
+              },
+              {
+                  class:'HeroLabel',
+                  frame:{r:'8',w:'0.5x',h:'16', y:'32'},
+                  text:'20170904100',
+                  alignment:'right',
+                  textColor:window.Color.BorderLine,
+                  size:14
+              },
+              {
+                  class:'HeroLabel',
+                  frame:{x:'10.5',w:'0.5x',h:'16', y:'56'},
+                  text:'Merch. Order Number',
+                  textColor:window.Color.Menu,
+                  size:14
+              },
+              {
+                  class:'HeroLabel',
+                  frame:{r:'8',w:'0.5x',h:'16', y:'56'},
+                  text:'BK128463892927',
+                  alignment:'right',
+                  textColor:window.Color.BorderLine,
+                  size:14
+              },
+              {
+                class:'UIView',
+                frame:{x:'0',b:'0',w:'1x',h:'1'},
+                backgroundColor:window.Color.BorderLine,
+              }
+            ]
+          },
+          {
+            class:'UIView',
+            frame:{w:'1x',b:'0',x:'0', h:'60'},
+            name: 'ID_Submit',
+            subViews: [
+              {
+                class:'HeroButton',
+                frame:{h:'1x',w:'1x',y:'0'},
+                title:i18n('OK'),
+                titleColor:window.Color.White,
+                backgroundColor: window.Color.RightText,
+                size:16,
+              },
+            ]
+          },
+
+    ]
+
+}
+
+</script>
+</head>
+</html>

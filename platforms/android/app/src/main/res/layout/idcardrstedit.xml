@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"  
+   	android:focusableInTouchMode="true"
+    android:background="#f0eff5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/IDCardBarLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:background="#cfcfcf"
+        android:gravity="center"
+        android:text="身份证信息"
+        android:textColor="#000000"
+        android:textSize="28dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IDCardBarLabel" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!--
+          <ImageView
+        android:id= "@+id/IDCardFullImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+              />
+            -->
+            <LinearLayout
+                android:id="@+id/faceImageViewBG"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border" >
+
+                <ImageView
+                    android:id="@+id/faceImageView"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frontBtnBG"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp" >
+
+                <Button
+                    android:id="@+id/frontBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/click_camera_btn"
+                    android:onClick="onClickScan" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/nameBG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/faceImageViewBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardNameLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="姓名"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+                <!--
+      				android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                -->
+
+                <EditText
+                    android:id="@+id/IDCardNameEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+                <!--
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+					android:layout_alignBaseline="@id/IDCardNameLabel"
+                    android:layout_toRightOf="@id/IDCardNameLabel"
+                -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sexBG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/nameBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardSexLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="性别"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardSexEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nationBG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/sexBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardNationLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="民族"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardNationEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/birthBG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/nationBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardBirthdayLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="出生"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardBirthdayEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/addressBG"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/birthBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardAddressLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="住址"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardAddressEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/IDCardCodeBG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/addressBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardCodeLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="身份证号"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardCodeEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/frontFullImageBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IDCardCodeBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border" >
+
+                <ImageView
+                    android:id="@+id/frontFullImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </LinearLayout>
+                
+            <LinearLayout
+                android:id="@+id/backBtnBG"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/frontFullImageBG"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" >
+
+                <Button
+                    android:id="@+id/backBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/click_camera_btn"
+                    android:onClick="onClickScan" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/IDCardOfficeBG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/backBtnBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardOfficeLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="签发机关"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardOfficeEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/IDCardValidDateBG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/IDCardOfficeBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardValidDateLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="有效期限"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardValidDateEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/backFullImageBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IDCardValidDateBG"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border" >
+
+                <ImageView
+                    android:id="@+id/backFullImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </LinearLayout>
+            
+            <Button
+                android:id="@+id/idcardReturn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/backFullImageBG"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#cfcfcf"
+                android:onClick="onIDReturn"
+                android:text="确定"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

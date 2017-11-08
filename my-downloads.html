@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'My Downloads',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:'ffffff',
+          },
+          {
+              class:'HeroButton',
+              name: 'ID_Downloads_Btn',
+              frame:{h:'36',w:'160',y:'54'},
+              title:i18n('Downloads Count'),
+              borderWidth: '1',
+              cornerRadius: '4',
+              center: {x: '0.5x'},
+              borderColor: window.Color.RightText,
+              size:18,
+              titleColor:window.Color.RightText,
+          },
+          {
+              class:'HeroLabel',
+              name: 'ID_Donwload_Counts',
+              frame:{w:'1x',h:'64', y:'109'},
+              alignment:'center',
+              text:i18n('200'),
+              textColor:window.Color.RightText,
+              size:60
+          },
+          {
+              class:'HeroLabel',
+              frame:{l:'24',r:'24', y:'178'},
+              hAuto:true,
+              name: 'ID_Donwload_Desc',
+              alignment:'center',
+              text:i18n('For every download, you will get Rp.2,000. Your current download income is'),
+              textColor:window.Color.Menu,
+              size:14
+          },
+          {
+              class:'HeroLabel',
+              frame:{l:'24',r:'24',h:'18', y:'246'},
+              hAuto:true,
+              name: 'ID_Donwload_Expression',
+              alignment:'center',
+              text:i18n('200 x Rp. 2000'),
+              textColor:window.Color.Menu,
+              size:16
+          },
+          {
+              class:'HeroLabel',
+              frame:{l:'24',r:'24',h:'34', y:'272'},
+              hAuto:true,
+              alignment:'center',
+              name: 'ID_Donwload_Value',
+              text:i18n('Rp.400,000'),
+              textColor:window.Color.RightText,
+              size:34
+          },
+          {
+              class:'HeroLabel',
+              frame:{l:'24',r:'24',h:'20', y:'366'},
+              hAuto:true,
+              alignment:'center',
+              name: 'ID_Donwload_Income_Desc',
+              text:i18n('You will get your total income at'),
+              textColor:window.Color.Menu,
+              size:14
+          },
+          {
+              class:'HeroLabel',
+              frame:{l:'24',r:'24',h:'20', y:'386'},
+              hAuto:true,
+              alignment:'center',
+              text:i18n('1st March 2018'),
+              textColor:window.Color.Menu,
+              size:14,
+              weight: 'bold'
+          },
+    ]
+
+}
+
+</script>
+</head>
+</html>

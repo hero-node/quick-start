@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#B0E0E6"
+    android:orientation="vertical"
+     >
+
+     <TextView
+        android:id="@+id/QRCardBarLabel"
+        android:text="二维码信息"
+        android:background="#ff99ccff"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        />
+    
+     <ScrollView
+        android:id="@+id/scrollViewQR"
+        android:layout_below="@id/QRCardBarLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+          
+      <TextView
+        android:id="@+id/QRResultLabel"
+        android:text="识别结果:"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        />
+    <EditText
+        android:id="@+id/QRResultEditText"
+        android:layout_below="@id/QRResultLabel"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:textSize="18sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+         />
+
+    <Button
+        android:id="@+id/qrcardReturn"
+        android:layout_marginTop="10dp"
+        android:background="#ff99ccff"
+        android:text="确定"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+ 		android:layout_below="@id/QRResultEditText"
+		android:onClick="onQRReturn"
+
+         />
+          
+        </RelativeLayout>
+        
+      </ScrollView>
+   
+</RelativeLayout>

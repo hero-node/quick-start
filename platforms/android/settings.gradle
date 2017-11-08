@@ -1,0 +1,2 @@
+include ':app', 'hero', ':livenesslib'
+project(':hero').projectDir = new File('hero-android/hero')

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+Hero.viewWillAppear = function(){}
+Hero.on = function(json){}
+
+Hero.ui = {
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'My Account',
+          titleView:{
+            class:'HeroImageView',
+            frame:{w:'80',h:'44'},
+            image:path+'/images/icon.png'
+          },
+          titleColor: 'ffffff',
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:'ffffff',
+          },
+          {
+              class:'UIView',
+              frame:{x:'0',w:'1x',h:'210',y:'0'},
+              subViews: [{
+                  jsClass:'DashboardMenu',
+                  icon:{image: path + '/images/icon.png'},
+                  center: {x: 1.0/6+'x', y:'25'},
+                  title: {text: i18n('Rp.630,000')}
+              },{
+                  jsClass:'DashboardMenu',
+                  icon:{image: path + '/images/icon.png'},
+                  center: {x: '0.5x', y:'25'},
+                  title: {text: i18n('Receive')}
+              },
+              {
+                  jsClass:'DashboardMenu',
+                  icon:{image: path + '/images/icon.png'},
+                  center: {x: 5.0/6+'x', y:'25'},
+                  title: {text: i18n('Income')}
+              },
+              {
+                  jsClass:'DashboardMenu',
+                  icon:{image: path + '/images/icon.png'},
+                  center: {x: 1.0/6+'x', y:'75'},
+                  title: {text: i18n('Withdraw')}
+              },
+              {
+                  jsClass:'DashboardMenu',
+                  icon:{image: path + '/images/icon.png'},
+                  center: {x: '0.5x', y:'75'},
+                  title: {text: i18n('My Account')}
+              },
+              {
+                  jsClass:'DashboardMenu',
+                  icon:{image: path + '/images/icon.png'},
+                  center: {x: 5.0/6+'x', y:'75'},
+                  title: {text: i18n('Settings')}
+              }]
+          },
+          {
+              class:'HeroScrollView',
+              frame: {w: '1x', y: '210', h: '132'},
+              subViews: [{
+                  class: 'HeroImageView',
+                  image: path + '/images/scroll-01.png',
+                  frame: { w: '1x', h: '1x' },
+              },{
+                  class: 'HeroImageView',
+                  image: path + '/images/scroll-01.png',
+                  frame: { x: '1x', w: '1x', h: '1x' },
+              },{
+                  class: 'HeroImageView',
+                  image: path + '/images/scroll-01.png',
+                  frame: { x: '2x', w: '1x', h: '1x' },
+              },{
+                  class: 'HeroImageView',
+                  image: path + '/images/scroll-01.png',
+                  frame: { x: '3x', w: '1x', h: '1x' },
+              }]
+          },
+          {
+              class:'UIView',
+              frame: {w: '1x', y: '100', h: '50'},
+              subViews: [{
+                  class: 'HeroLabel',
+                  image: path + '/images/scroll-01.png',
+                  frame: { w: '1x', h: '1x' },
+              }]
+          },
+    ]
+}
+
+</script>
+</head>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'Withdraw',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:window.Color.BorderLine,
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',w:'1x',h:'120'},
+            backgroundColor:window.Color.White,
+            subViews: [{
+                class:'HeroLabel',
+                frame:{w:'1x',h:'18',y:'20'},
+                alignment:'center',
+                yOffset: 'ID_Downloads_Btn+18',
+                text:i18n('My Balance'),
+                textColor:window.Color.Menu,
+                size:16
+            },{
+                class:'HeroLabel',
+                frame:{w:'1x',h:'36',y:'56'},
+                alignment:'center',
+                yOffset: 'ID_Downloads_Btn+18',
+                text:i18n('Rp. 500,000'),
+                textColor:window.Color.RightText,
+                size:34
+            },]
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',w:'1x',h:'103', y: '124'},
+            backgroundColor:window.Color.White,
+            subViews: [{
+                class:'HeroLabel',
+                frame:{x:'21',w:'1x',h:'18',y:'21'},
+                yOffset: 'ID_Downloads_Btn+18',
+                text:i18n('Withdraw Amount'),
+                textColor:window.Color.Menu,
+                size:16
+            },{
+                class:'HeroTextField',
+                type:'phone',
+                frame:{l:'21',r:'21',y:'40',h:'45'},
+                placeHolder:'Enter withdraw amount',
+                name:'phone',
+                text:localStorage.phone||'',
+                textFieldDidEditing:{textfield:'change'},
+            },]
+          },
+          {
+            class:'UIView',
+            frame:{x:'0',w:'1x',h:'103', y: '231'},
+            backgroundColor:window.Color.White,
+            subViews: [{
+                class:'HeroLabel',
+                frame:{x:'51',h:'16',y:'20'},
+                text:i18n('Bank Account'),
+                textColor:window.Color.Menu,
+                size:14
+            },{
+                class:'HeroLabel',
+                frame:{x:'51',h:'16',y:'46'},
+                text:i18n('Sena Rizcky Hadi'),
+                textColor:window.Color.Menu,
+                size:14
+            },{
+                class:'HeroLabel',
+                frame:{x:'51',h:'16',y:'66'},
+                text:i18n('1234567890/BCA'),
+                textColor:window.Color.Menu,
+                size:14
+            },{
+                class: 'HeroImageView',
+                frame: { x:'16',w: '24', h: '24',y:'15' },
+                image: path+'/images/bank-icon.png'
+            },{
+                class: 'HeroImageView',
+                frame: { r:'20',w: '20', h: '20',y:'42' },
+                image: path+'/images/checked.png'
+            }]
+          },
+          {
+            class:'UIView',
+            frame:{w:'1x',b:'0',x:'0', h:'60'},
+            name: 'ID_Submit',
+            subViews: [
+              {
+                class:'HeroButton',
+                frame:{h:'1x',w:'1x',y:'0'},
+                title:i18n('SUBMIT'),
+                titleColor:window.Color.White,
+                backgroundColor: window.Color.RightText,
+                size:16,
+              },
+            ]
+          },
+
+    ]
+
+}
+
+</script>
+</head>
+</html>

@@ -1,0 +1,13 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="custom_button" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_backselect</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+</resources>

@@ -1,12 +1,11 @@
-*.class
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# dependencies
+/node_modules
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# misc
+.DS_Store
+.env
+npm-debug.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+/.idea/

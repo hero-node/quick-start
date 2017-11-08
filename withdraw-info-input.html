@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'Withdraw',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:window.Color.White,
+          },
+          {
+            class:'UIView',
+            frame: {x:'0', y:'0', w: '1x', h: '77' },
+            backgroundColor:window.Color.White,
+            subViews: [{
+                jsClass:'BankFieldInput',
+                _ID_Bank_Field: {frame: {x:0,y:0}},
+                _ID_Label: {text:i18n('Bank Name')},
+                _ID_Input: {placeHolder:'Enter bank name'},
+                _ID_Image: {image:path+'/images/withdraw-bank.png'}
+            }]
+          },
+          {
+            class:'UIView',
+            frame: {x:'0', y:'77', w: '1x', h: '77' },
+            backgroundColor:window.Color.White,
+            subViews: [{
+                jsClass:'BankFieldInput',
+                _ID_Bank_Field: {frame: {x:0,y:0}},
+                _ID_Label: {text:i18n('Bank Code')},
+                _ID_Input: {placeHolder:'Enter bank code'},
+                _ID_Image: {image:path+'/images/withdraw-bank-code.png'}
+            }]
+          },
+          {
+            class:'UIView',
+            frame: { x:'0',y:'154', w: '1x', h: '77' },
+            backgroundColor:window.Color.White,
+            subViews: [{
+              jsClass:'BankFieldInput',
+              _ID_Bank_Field: {frame: {x:0,y:77}},
+              _ID_Label: {text:i18n('Bank Account Name')},
+              _ID_Input: {placeHolder:'Enter your bank account name'},
+              _ID_Image: {image:path+'/images/withdraw-account-name.png'}
+            }]
+          },
+          {
+            class:'UIView',
+            frame: { x:'0',y:'231', w: '1x', h: '78' },
+            backgroundColor:window.Color.White,
+            subViews: [{
+              jsClass:'BankFieldInput',
+              _ID_Bank_Field: {frame: {x:0,y:156}},
+              _ID_Label: {text:i18n('Bank Account Number')},
+              _ID_Input: {placeHolder:'Enter your bank account number'},
+              _ID_Image: {image:path+'/images/withdraw-account-number.png'}
+            }]
+          },
+          {
+            class:'UIView',
+            frame:{l:'20',r:'20',b:'60', h:'126'},
+            subViews: [
+              {
+                  class:'HeroLabel',
+                  frame:{w:'1x',y:'0'},
+                  hAuto:true,
+                  alignment:'center',
+                  text:i18n('If you don’t have any bank account, please contact us to withdraw your money.'),
+                  textColor:window.Color.Gray,
+                  size:12
+              },
+              {
+                  class:'HeroLabel',
+                  frame:{w:'1x',y:'40'},
+                  hAuto:true,
+                  text:i18n('cs@artapiranti.com | 0218976734'),
+                  alignment:'center',
+                  textColor:window.Color.RightText,
+                  size:12
+              },
+              {
+                  class:'HeroLabel',
+                  // frame:{w:'1x',b:'10'}, Doesn't work?
+                  frame:{w:'1x',y:'80'},
+                  hAuto:true,
+                  text:i18n('By continuing, you agree to the Terms & Conditions'),
+                  alignment:'center',
+                  textColor:window.Color.Gray,
+                  size:12
+              },
+            ]
+          },
+          {
+            class:'UIView',
+            frame:{w:'1x',b:'0',x:'0', h:'60'},
+            name: 'ID_Submit',
+            subViews: [
+              {
+                class:'HeroButton',
+                frame:{h:'1x',w:'1x',y:'0'},
+                title:i18n('SUBMIT'),
+                titleColor:window.Color.White,
+                backgroundColor: window.Color.RightText,
+                size:16,
+              },
+            ]
+          },
+
+    ]
+
+}
+
+</script>
+</head>
+</html>

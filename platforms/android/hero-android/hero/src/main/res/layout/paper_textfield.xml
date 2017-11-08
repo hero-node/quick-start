@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="50dp"
+    >
+
+    <View
+        android:id="@+id/underline"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/textfield_underline_light"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_above="@+id/underline"
+        android:layout_toLeftOf="@+id/deleteIcon"
+        android:textColorHint="@color/c1"
+        app:passwordToggleEnabled="false"
+        >
+
+        <com.hero.HeroTextField
+            android:id="@+id/textField"
+            style="@style/PaperTextField"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textTitle"
+        style="@style/PaperTextFieldFloatingText"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_alignTop="@id/textLayout"
+        android:visibility="gone"
+        />
+
+    <View
+        android:id="@+id/blank"
+        android:layout_width="1dp"
+        android:layout_height="11dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        android:id="@+id/deleteIcon"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/blank"
+        android:layout_toLeftOf="@+id/rightElements"
+        android:layout_above="@+id/underline"
+        android:src="@drawable/clear_button"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        android:alpha="0"
+        />
+
+    <FrameLayout
+        android:id="@+id/rightElements"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_below="@+id/blank"
+        android:layout_above="@+id/underline"
+        >
+
+        <com.hero.HeroButton
+            android:id="@+id/rightButton"
+            android:layout_height="@dimen/paper_small_button_height"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/paper_button_text_size"
+            android:text="button"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/paper_button_light"
+            android:background="@drawable/paper_button_transparent"
+            android:visibility="gone"
+            />
+
+        <com.hero.HeroImageView
+            android:id="@+id/rightImage"
+            style="@style/PaperTextFieldIcon"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/textfield_lock"
+            android:visibility="gone"
+            />
+
+        <mafia.views.CountDownProgressView
+            android:id="@+id/progress"
+            style="@style/PaperTextFieldIcon"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/rightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/paper_button_text_Color"
+            android:textSize="@dimen/paper_button_text_size"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
+</RelativeLayout>

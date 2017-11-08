@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootContainerE"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f0eff5"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/IDCardBarLabelE"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:background="#cfcfcf"
+        android:gravity="center"
+        android:text="身份证信息"
+        android:textColor="#000000"
+        android:textSize="28dp" />
+
+    <ScrollView
+        android:id="@+id/scrollViewE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IDCardBarLabelE" >
+
+        <RelativeLayout
+            android:id="@+id/containerE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:id="@+id/FullImageBGE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border" >
+
+                <ImageView
+                    android:id="@+id/FullImageViewE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nameBGE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/FullImageBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardNameLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="姓名"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardNameEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sexBGE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/nameBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardSexLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="性别"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardSexEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nationBGE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/sexBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardNationLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="民族"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardNationEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/birthBGE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/nationBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardBirthdayLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="出生"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardBirthdayEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/addressBGE"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/birthBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardAddressLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="住址"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardAddressEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/IDCardCodeBGE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/addressBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardCodeLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="身份证号"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardCodeEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/IDCardOfficeBGE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/IDCardCodeBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardOfficeLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="签发机关"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardOfficeEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/IDCardValidDateBGE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/IDCardOfficeBGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/IDCardValidDateLabelE"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="有效期限"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/IDCardValidDateEditTextE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/idcardReturnE"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IDCardValidDateBGE"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#cfcfcf"
+                android:onClick="onIDReturn"
+                android:text="确定"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

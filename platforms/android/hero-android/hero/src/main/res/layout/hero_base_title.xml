@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/heroTitleBackground"
+                android:visibility="gone">
+
+    <RelativeLayout
+        android:id="@+id/layoutCenterItem"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/centerImage"
+            android:layout_width="37dp"
+            android:layout_height="22dp"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/ToolbarTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutLeftItem"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/leftImage"
+            android:layout_width="@dimen/actionbar_icon_height"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:padding="5dp"
+            android:background="@drawable/action_button_bg"
+            android:src="@drawable/hero_ic_back"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutRightItem"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+    </LinearLayout>
+</RelativeLayout>

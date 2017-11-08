@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+
+Hero.ui = {
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'Details',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:window.Color.White,
+          },
+          {
+            class:'UIView',
+            frame:{l:'25',r:'25',h:'1x'},
+            subViews: [
+              {
+                  class: 'HeroImageView',
+                  frame: { x: '23', w: '230', h: '200', y: '42' },
+                  center: {x:'0.5x'},
+                  image: path + '/images/receive-success.png'
+              },
+              {
+                  class:'HeroButton',
+                  frame:{h:'36',w:'114',y:'332'},
+                  title:i18n('See Details'),
+                  borderWidth: '1',
+                  cornerRadius: '4',
+                  center: {x: '0.5x'},
+                  backgroundColor: window.Color.RightText,
+                  borderColor: window.Color.RightText,
+                  size:16,
+                  titleColor:window.Color.White,
+              },
+              {
+                  class:'HeroLabel',
+                  frame:{w:'1x', y:'260'},
+                  hAuto: true,
+                  alignment:'center',
+                  text:i18n('You received +20,000 from Sena Rizky. Thank you for using our services.'),
+                  textColor:window.Color.Menu,
+                  size:16
+              }
+            ]
+          }
+    ]
+
+}
+
+</script>
+</head>
+</html>

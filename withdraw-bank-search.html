@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+var BankListData = [{
+  name: 'BANK BCA',
+  code: '12345'
+},{
+  name: 'ANZ INDONESIA',
+  code: '12345'
+},{
+  name: 'BAG INTERNASIONAL',
+  code: '12345'
+},{
+  name: 'BANGKOK BANK',
+  code: '12345'
+},{
+  name: 'BANK ACEH',
+  code: '12345'
+},{
+  name: 'BANK AGRIS',
+  code: '12345'
+},{
+  name: 'BANK AMAR',
+  code: '12345'
+},{
+  name: 'BANK ANDARA',
+  code: '12345'
+},{
+  name: 'BANK ANTAR DAERAH',
+  code: '12345'
+},{
+  name: 'BANK ARTOS',
+  code: '12345'
+},{
+  name: 'BANK CIMB',
+  code: '12345'
+}]
+var _rows = []
+for(var i=0,len=BankListData.length;i<len;i++){
+  _rows.push({
+          class: 'UIView',
+          frame: { l: '22', r: '22', h: '54' },
+          subViews: [
+              {
+                  class: 'HeroLabel',
+                  frame: { x: '0', r: '100', y: '20', h: '14' },
+                  textColor: window.Color.Menu,
+                  text: BankListData[i].name,
+                  size: 14
+              },
+              {
+                  class: 'UIView',
+                  frame: { x: '0', w: '1x', b: '0', h: '1' },
+                  backgroundColor: window.Color.BorderLine
+              },
+              {
+                  class: 'HeroLabel',
+                  text: BankListData[i].code,
+                  frame: { r: '0', y: '20', h: '14', w: '100' },
+                  textColor: window.Color.Menu,
+                  alignment:'right',
+                  size: 14
+              }
+          ]
+  })
+}
+Hero.ui = {
+
+    version:0,
+    backgroundColor:'f5f5f5',
+    nav:{
+          title:'Search',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:window.Color.White,
+          },
+          {
+            class:'HeroTableView',
+            frame: {x:'0', y:'0', w: '1x'},
+            data: [{
+                sectionTitle: '',
+                rows: _rows
+            }]
+          },
+    ]
+
+}
+
+</script>
+</head>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/shareViews.js"></script>
+<script type="text/javascript" src="/js/i18n.js"></script>
+<script type="text/javascript" src="/js/herohelper.js"></script>
+<script type="text/javascript" src="/js/hero.js"></script>
+<script type="text/javascript">
+var _Data = [{
+  name: 'Notifications',
+  image: path+'/images/notification-icon.png',
+  type: 'radio',
+  isChecked:true
+},{
+  name: 'Terms & Conditions',
+  image: path+'/images/term-and-conditions-icon.png'
+},{
+  name: 'Privacy & Policy',
+  image: path+'/images/term-and-conditions-icon.png'
+}]
+var _rows = []
+for(var i=0,len=_Data.length;i<len;i++){
+  var _element = {
+        class: 'UIView',
+        frame: { w: '1x', h: '50' },
+        backgroundColor:window.Color.Gray_BG,
+        subViews: [
+            {
+                class: 'HeroLabel',
+                frame: { l: '53', r: '80', y: '15', h: '18' },
+                hAuto: true,
+                textColor: window.Color.Menu,
+                text: _Data[i].name,
+                size: 16
+            },
+            {
+                class: 'UIView',
+                frame: { x: '0', w: '1x', b: '0', h: '1' },
+                backgroundColor: window.Color.BorderLine
+            },
+            {
+                class: 'HeroImageView',
+                frame: { x: '16', w: '20', h: '20', y: '14' },
+                image: _Data[i].image
+            }
+        ]
+  };
+  _Data[i].type==='radio' && _element.subViews.push({
+    class: 'HeroSwitch',
+    frame: { r: '26', w: '36', h: '34', y: '9' },
+    value: _Data[i].isChecked
+  });
+  _rows.push(_element);
+}
+Hero.ui = {
+
+    version:0,
+    backgroundColor:window.Color.Gray_BG,
+    nav:{
+          title:'Notification',
+          titleColor: window.Color.White,
+          tintColor: window.Color.RightText
+    },
+    views:
+    [
+          {
+              class:'UIView',
+              frame:{w:'1x',h:'1x'},
+              backgroundColor:window.Color.Gray_BG,
+          },
+          {
+            class:'HeroTableView',
+            frame: {x:'0', y:'0', w: '1x'},
+            backgroundColor:window.Color.Gray_BG,
+            data: [{
+                sectionTitle: '',
+                backgroundColor:window.Color.Gray_BG,
+                rows: _rows
+            }]
+          }
+    ]
+
+}
+
+</script>
+</head>
+</html>
