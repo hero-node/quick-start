@@ -6,9 +6,15 @@
 	<script type="text/javascript" src="js/herohelper.js"></script>
 	<script type="text/javascript">
 
-  var _path = path;
+  var _path = path+'/pay-merchant';
 
 	var entryList = [
+    {
+  		sectionTitle:'APay-User',
+  		rows:[
+  			{title:'APay User',url:path+'/zz-apay-user.html'},
+  		]
+  	},
   {
 		sectionTitle:'Dashboard',
 		rows:[
@@ -36,7 +42,6 @@
 			{title:'Income History',url:_path+'/income-history.html'},
 			{title:'Recieve Success',url:_path+'/receive-success.html'},
 			{title:'Recieve',url:_path+'/receive.html'},
-			{title:'Transaction Detail',url:_path+'/transaction-detail.html'},
 		]
 	},
 
